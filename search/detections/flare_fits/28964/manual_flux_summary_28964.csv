@@ -1,0 +1,2 @@
+ObsID,src_counts,bkg_counts,net_counts,exposure_s,count_rate,flux_ergcm2s,fluence_ergcm2
+{'28964'},11.0,9.0,2.0,2730.8201558589935,0.0007323807083044213,4.399777105138811e-15,1.2014999999999998e-11

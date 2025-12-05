@@ -1,0 +1,1029 @@
+SIMPLE  =                    T / file does conform to FITS standard             BITPIX  =                   16 / number of bits per data pixel                  NAXIS   =                    0 / number of data axes                            EXTEND  =                    T / FITS dataset may contain extensions            COMMENT   FITS (Flexible Image Transport System) format is defined in 'AstronomyCOMMENT   and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H HDUNAME = 'PRIMARY '                                                            ORIGIN  = 'ASC     '           / Source of FITS file                            CREATOR = 'dmgroup - CIAO 4.16.0' / tool that created this output               CHECKSUM= '7XVY9VUX7VUX7VUX'   / HDU checksum updated 2025-11-05T19:56:41       DATASUM = '        '           / data unit checksum updated 2025-11-05T19:56:33 DATE    = '2025-11-05T19:56:41' / Date and time of file creation                ASCDSVER= 'CIAO 4.16.0'        / ASCDS version number                           MJD-OBS =  6.0226237629372E+04 / Modified Julian date of observation            DATE-OBS= '2023-10-09T05:42:11' / Observation start date                        DATE-END= '2023-10-09T09:53:05' / Observation end date                          TIMESYS = 'TT      '           / Time system                                    MJDREF  =  5.0814000000000E+04 / [d] MJD zero point for times                   TIMEZERO=  0.0000000000000E+00 / [s] Clock correction                           TIMEUNIT= 's       '           / Time unit                                      CLOCKAPP=                    T / default                                        TSTART  =  8.1321733117777E+08 / [s] Observation start time (MET)               TSTOP   =  8.1323238586624E+08 / [s] Observation end time (MET)                 MISSION = 'AXAF    '           / Mission                                        TELESCOP= 'CHANDRA '           / Telescope                                      INSTRUME= 'ACIS    '           / Instrument                                     DS_IDENT= '10.25574/28964'     / Dataset Identifier: DOI                        OBS_ID  = '28964   '           / Observation id                                 SEQ_NUM = '503399  '           / Sequence number                                END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                   52 / width of table in bytes                        NAXIS2  =                 1024 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                   10 / number of fields in each row                   EXTNAME = 'SPECTRUM'           / name of this binary table extension            HDUNAME = 'SPECTRUM'           / ASCDM block name                               TTYPE1  = 'CHANNEL '           / PI                                             TFORM1  = '1J      '           / format of field                                TUNIT1  = 'channel '                                                            TLMIN1  =                    1                                                  TLMAX1  =                 1024                                                  TTYPE2  = 'PI      '           / pulse invariant energy of event                TFORM2  = '1D      '           / format of field                                TUNIT2  = 'chan    '                                                            TLMIN2  =  1.0000000000000E+00                                                  TLMAX2  =  1.0240000000000E+03                                                  TTYPE3  = 'COUNTS  '           / Counts                                         TFORM3  = '1J      '           / format of field                                TUNIT3  = 'count   '                                                            TTYPE4  = 'COUNT_RATE'         / Rate                                           TFORM4  = '1D      '           / format of field                                TUNIT4  = 'count/s '                                                            TLMIN4  =  0.0000000000000E+00                                                  ORIGIN  = 'ASC     '           / Source of FITS file                            CREATOR = 'dmgroup - CIAO 4.16.0' / tool that created this output               ASCDSVER= 'CIAO 4.16.0'        / ASCDS version number                           REVISION=                    2 / Processing version of data                     CHECKSUM= 'UA2aW91SUA1YU91Y'   / HDU checksum updated 2025-11-05T19:56:42       DATASUM = '2918897192'         / data unit checksum updated 2025-11-05T19:56:41 ASPTYPE = 'KALMAN  '                                                            RAND_SKY=  0.0000000000000E+00                                                  RAND_PI =  1.0000000000000E+00                                                  DATE    = '2025-11-05T19:56:41' / Date and time of file creation                MJD-OBS =  6.0226237629372E+04 / Modified Julian date of observation            DATE-OBS= '2023-10-09T05:42:11' / Observation start date                        DATE-END= '2023-10-09T09:53:05' / Observation end date                          TIMESYS = 'TT      '           / Time system                                    MJDREF  =  5.0814000000000E+04 / [d] MJD zero point for times                   TIMEZERO=  0.0000000000000E+00 / [s] Clock correction                           TIMEUNIT= 's       '           / Time unit                                      BTIMNULL=  8.1018774924543E+08 / Basic Time offset (s)                          BTIMRATE=  2.5625001646531E-01 / Basic Time clock rate (s / VCDUcount)          BTIMDRFT=  2.4967111711405E-18 / Basic Time clock drift (s / VCDUcount^2)       BTIMCORR=  0.0000000000000E+00 / Correction applied to Basic Time rate (s)      TIMEREF = 'LOCAL   '           / Time reference (barycenter/local)              TASSIGN = 'SATELLITE'          / Time assigned by clock                         CLOCKAPP=                    T / default                                        TIERRELA=  1.0000000000000E-09 / default                                        TIERABSO=  5.0000000000000E-05 / default                                        TIMVERSN= 'ASC-FITS-2'         / Timing system definition                       TSTART  =  8.1321733117777E+08 / [s] Observation start time (MET)               TSTOP   =  8.1323238586624E+08 / [s] Observation end time (MET)                 OBS_MODE= 'POINTING'           / Observation mode                               STARTOBT=  0.0000000000000E+00 / On-Board MET close to STARTMJF and STARTMNF    TIMEPIXR=  5.0000000000000E-01 / default                                        DATACLAS= 'OBSERVED'           / default                                        RADESYS = 'ICRS    '           / default                                        TIMEDEL =  3.0410400000000E+00 / [s] timedel Lev1                               MISSION = 'AXAF    '           / Mission                                        TELESCOP= 'CHANDRA '           / Telescope                                      SIM_X   = -6.8282252473119E-01 / [mm] SIM focus pos                             SIM_Y   =  0.0000000000000E+00 / [mm] SIM orthogonal axis pos                   SIM_Z   = -1.9014006604987E+02 / [mm] SIM translation stage pos                 FOC_LEN =  1.0070000000000E+04 / [mm] HRMA focal length                         INSTRUME= 'ACIS    '           / Instrument                                     GRATING = 'NONE    '           / Grating                                        DETNAM  = 'ACIS-67 '           / Detector                                       RA_PNT  =  2.4476912840270E+02 / [deg] Pointing RA                              DEC_PNT = -1.9041964589020E+00 / [deg] Pointing Dec                             ROLL_PNT=  2.7645916218745E+02 / [deg] Pointing Roll                            RA_TARG =  2.4477100800000E+02 / [deg] Observer's specified target RA           DEC_TARG= -1.9070780000000E+00 / [deg] Observer's specified target Dec          DEFOCUS =  1.4449365687057E-03 / [mm] SIM defocus                               RA_NOM  =  2.4476912840270E+02 / [deg] Nominal RA                               DEC_NOM = -1.9041964589020E+00 / [deg] Nominal Dec                              ROLL_NOM=  2.7645916218745E+02 / [deg] Nominal Roll                             CTI_CORR=                    T                                                  CTI_APP = 'PPPPPBPBPP'                                                          READMODE= 'TIMED   '           / Read mode                                      DATAMODE= 'VFAINT  '           / Data mode                                      FLSHTIME=  0.0000000000000E+00 / [s]                                            CYCLE   = 'P       '           / events from which exps? Prim/Second/Both       LONGSTRN= 'OGIP 1.0'           / The HEASARC Long String Convention may be used.COMMENT   This FITS file may contain long string keyword values that are        COMMENT   continued over multiple keywords.  The HEASARC convention uses the &  COMMENT   character at the end of each substring which is then continued        COMMENT   on the next keyword which has the name CONTINUE.                      TITLE   = 'The quest for the energy source powering Superluminous Supernovae (&'CONTINUE  'SLSNe)'             / Proposal title                                 AREASCAL=  1.0000000000000E+00 / [pixel] Fractional area                        CORRSCAL=  0.0000000000000E+00 / [pixel] Fractional area                        BACKSCAL=  1.4946169705851E-06 / [pixel] Fractional area                        DETCHANS=                 1024 / Number of channels                             TOTCTS  =                   11 / [count] Total counts                           POISSERR=                    T / Assumed Poisson errs                           SYS_ERR =  0.0000000000000E+00 / Systematic errors                              HISTNUM =                  138                                                  ONTIME7 =  1.2581444144249E+04 / [s] Sum of GTIs                                ONTIME6 =  1.2581403104305E+04 / [s] Sum of GTIs                                LIVETIME=  1.2411652734836E+04 / [s] Livetime                                   LIVTIME7=  1.2411652734836E+04 / [s] Livetime                                   LIVTIME6=  1.2411612248743E+04 / [s] Livetime                                   EXPOSURE=  1.2411652734836E+04 / [s] Exposure time                              EXPOSUR7=  1.2411652734836E+04 / [s] Exposure time                              EXPOSUR6=  1.2411612248743E+04 / [s] Exposure time                              DTCOR   =  9.8650461684161E-01 / Dead time correction                           ONTIME  =  1.2581444144249E+04 / [s] Sum of GTIs                                OBSERVER= 'Ryan Chornock'      / Principal investigator                         OBJECT  = 'SN 2023ozo'         / Source name                                    DS_IDENT= '10.25574/28964'     / Dataset Identifier: DOI                        OBS_ID  = '28964   '           / Observation id                                 SEQ_NUM = '503399  '           / Sequence number                                FP_TEMP =  1.6038995361000E+02 / [K] Focal Plane Temperature                    DY_AVG  =  0.0000000000000E+00 / [mm] Mean DY during observation                DZ_AVG  =  0.0000000000000E+00 / [mm] Mean DZ during observation                DTH_AVG =  0.0000000000000E+00 / [deg] Mean DTHETA during observation           CONTENT = 'PHA     '           / PHA file                                       HDUCLASS= 'OGIP    '           / format conforms to OGIP/GSFC Spectral standardsHDUDOC  = 'Arnaud et al. 1992a Legacy 2  p 65' / Documentation for format       HDUCLAS1= 'SPECTRUM'           / Extension contains a Spectrum                  HDUCLAS2= 'TOTAL   '           / Spectrum total counts                          HDUCLAS3= 'TYPE:I  '           / One spectrum in the file                       HDUCLAS4= 'COUNT   '           / Spectrum total counts                          HDUVERS = '1.1.0   '           / Format version                                 HDUVERS1= '1.1.0   '           / Format version                                 CHANTYPE= 'PI      '           / PHA type                                       BACKFILE= '28964_bkg.pi'                                                        CORRFILE= 'none    '                                                            RESPFILE= '28964.rmf'                                                           ANCRFILE= '28964.corr.arf'                                                      HISTORY dmextract binning: File EVENTS Col pi Binning 0.5:1024.5:1              HISTORY  TOOL  :dmextract   2025-11-05T19:56:33                         ASC00001HISTORY  PARM  :infile=detections/28964/acisf28964N002_evt2.fits[sky=regASC00002HISTORY  CONT  :ion(/data/tvlieshout/tmp/tmp5n9skgty_phys_coords_src1.reASC00003HISTORY  CONT  :g)][bin PI]                                             ASC00004HISTORY  PARM  :outfile=detections/fluxfit/28964.pi                     ASC00005HISTORY  PARM  :bkg=                                                    ASC00006HISTORY  PARM  :error=gaussian                                          ASC00007HISTORY  PARM  :bkgerror=gaussian                                       ASC00008HISTORY  PARM  :bkgnorm=1                                               ASC00009HISTORY  PARM  :exp=                                                    ASC00010HISTORY  PARM  :bkgexp=                                                 ASC00011HISTORY  PARM  :sys_err=0                                               ASC00012HISTORY  PARM  :opt=pha1                                                ASC00013HISTORY  PARM  :defaults=/opt/anaconda3/envs/ciao/data/cxo.mdb          ASC00014HISTORY  PARM  :wmap=[energy=300:2000][bin tdet=8]                      ASC00015HISTORY  PARM  :clobber=yes                                             ASC00016HISTORY  PARM  :verbose=1                                               ASC00017NRAO_NH =  8.8700000000000E-02 / [10**22 cm**-2] galactic HI column density     HISTORY  TOOL  :dmhedit   2025-11-05T19:56:33                           ASC00018HISTORY  PARM  :infile=detections/fluxfit/28964.pi                      ASC00019HISTORY  PARM  :filelist=none                                           ASC00020HISTORY  PARM  :operation=add                                           ASC00021HISTORY  PARM  :key=NRAO_nH                                             ASC00022HISTORY  PARM  :value=0.0887                                            ASC00023HISTORY  PARM  :datatype=indef                                          ASC00024HISTORY  PARM  :unit=10**22 cm**-2                                      ASC00025HISTORY  PARM  :comment=galactic HI column density                      ASC00026HISTORY  PARM  :verbose=1                                               ASC00027BELL_NH =  8.5000000000000E-02 / [10**22 cm**-2] galactic HI column density     HISTORY  TOOL  :dmhedit   2025-11-05T19:56:33                           ASC00028HISTORY  PARM  :infile=detections/fluxfit/28964.pi                      ASC00029HISTORY  PARM  :filelist=none                                           ASC00030HISTORY  PARM  :operation=add                                           ASC00031HISTORY  PARM  :key=Bell_nH                                             ASC00032HISTORY  PARM  :value=0.085                                             ASC00033HISTORY  PARM  :datatype=indef                                          ASC00034HISTORY  PARM  :unit=10**22 cm**-2                                      ASC00035HISTORY  PARM  :comment=galactic HI column density                      ASC00036HISTORY  PARM  :verbose=1                                               ASC00037DSTYP1  = 'time    '           / DM Keyword: Descriptor name.                   DSVAL1  = 'TABLE   '                                                            DSFORM1 = 'D       '           / DM Keyword: Descriptor datatype.               DSREF1  = ':GTI7   '                                                            2DSREF1 = ':GTI6   '                                                            DSTYP2  = 'ccd_id  '           / DM Keyword: Descriptor name.                   DSVAL2  = '7:7     '           / DM Keyword: Descriptor value.                  DSFORM2 = 'I       '           / DM Keyword: Descriptor datatype.               2DSVAL2 = '6:6     '           /                                                DSTYP3  = 'node_id '           / DM Keyword: Descriptor name.                   DSVAL3  = '0:3     '           / DM Keyword: Descriptor value.                  DSFORM3 = 'I       '           / DM Keyword: Descriptor datatype.               2DSVAL3 = '0:3     '           /                                                DSTYP4  = 'expno   '           / DM Keyword: Descriptor name.                   DSVAL4  = '0:      '           / DM Keyword: Descriptor value.                  DSFORM4 = 'J       '           / DM Keyword: Descriptor datatype.               2DSVAL4 = '0:      '           /                                                DSTYP5  = 'chipx   '           / DM Keyword: Descriptor name.                   DSVAL5  = '1:1024  '           / DM Keyword: Descriptor value.                  DSFORM5 = 'I       '           / DM Keyword: Descriptor datatype.               2DSVAL5 = '1:1024  '           /                                                DSTYP6  = 'chipy   '           / DM Keyword: Descriptor name.                   DSVAL6  = '1:1024  '           / DM Keyword: Descriptor value.                  DSFORM6 = 'I       '           / DM Keyword: Descriptor datatype.               2DSVAL6 = '1:1024  '           /                                                DSTYP7  = 'tdetx   '           / DM Keyword: Descriptor name.                   DSVAL7  = '1:8192  '           / DM Keyword: Descriptor value.                  DSFORM7 = 'I       '           / DM Keyword: Descriptor datatype.               2DSVAL7 = '1:8192  '           /                                                DSTYP8  = 'tdety   '           / DM Keyword: Descriptor name.                   DSVAL8  = '1:8192  '           / DM Keyword: Descriptor value.                  DSFORM8 = 'I       '           / DM Keyword: Descriptor datatype.               2DSVAL8 = '1:8192  '           /                                                DSTYP9  = 'detx    '           / DM Keyword: Descriptor name.                   DSVAL9  = '0.5:8192.5'         / DM Keyword: Descriptor value.                  DSFORM9 = 'E       '           / DM Keyword: Descriptor datatype.               2DSVAL9 = '0.5:8192.5'         /                                                DSTYP10 = 'dety    '           / DM Keyword: Descriptor name.                   DSVAL10 = '0.5:8192.5'         / DM Keyword: Descriptor value.                  DSFORM10= 'E       '           / DM Keyword: Descriptor datatype.               2DSVAL10= '0.5:8192.5'         /                                                DSTYP11 = 'sky(x,y)'           / DM Keyword: Descriptor name.                   DSVAL11 = 'Circle(4480.15,3455.73,5.65041)' / DM Keyword: Descriptor value.     DSFORM11= 'E       '           / DM Keyword: Descriptor datatype.               2DSVAL11= 'Circle(4480.15,3455.73,5.65041)' /                                   DSTYP12 = 'pha     '           / DM Keyword: Descriptor name.                   DSVAL12 = '0:36855 '           / DM Keyword: Descriptor value.                  DSFORM12= 'J       '           / DM Keyword: Descriptor datatype.               2DSVAL12= '0:36855 '           /                                                DSTYP13 = 'pha_ro  '           / DM Keyword: Descriptor name.                   DSVAL13 = '0:36855 '           / DM Keyword: Descriptor value.                  DSFORM13= 'J       '           / DM Keyword: Descriptor datatype.               2DSVAL13= '0:36855 '           /                                                DSTYP14 = 'energy  '           / DM Keyword: Descriptor name.                   DSVAL14 = '0:1000000'          / DM Keyword: Descriptor value.                  DSFORM14= 'E       '           / DM Keyword: Descriptor datatype.               2DSVAL14= '0:1000000'          /                                                DSTYP15 = 'fltgrade'           / DM Keyword: Descriptor name.                   DSVAL15 = '0:255   '           / DM Keyword: Descriptor value.                  DSFORM15= 'I       '           / DM Keyword: Descriptor datatype.               2DSVAL15= '0:255   '           /                                                DSTYP16 = 'grade   '           / DM Keyword: Descriptor name.                   DSVAL16 = '0:0,2:2,3:3,4:4,6:6' / DM Keyword: Descriptor value.                 DSFORM16= 'I       '           / DM Keyword: Descriptor datatype.               2DSVAL16= '0:0,2:2,3:3,4:4,6:6' /                                               DSTYP17 = 'phas    '           / DM Keyword: Descriptor name.                   DSVAL17 = '-4096:4095'         / DM Keyword: Descriptor value.                  DSFORM17= 'I       '           / DM Keyword: Descriptor datatype.               2DSVAL17= '-4096:4095'         /                                                TTYPE5  = 'GROUPING'           / label for field                                TFORM5  = '1I      '           / format of field                                TTYPE6  = 'QUALITY '           / label for field                                TFORM6  = '1I      '           / format of field                                TTYPE7  = 'GRP_NUM '           / label for field                                TFORM7  = '1J      '           / format of field                                TTYPE8  = 'CHANS_PER_GRP'      / label for field                                TFORM8  = '1J      '           / format of field                                TTYPE9  = 'GRP_DATA'           / label for field                                TFORM9  = '1D      '           / format of field                                TTYPE10 = 'GRP_STAT_ERR'       / label for field                                TFORM10 = '1D      '           / format of field                                HISTORY  TOOL  :dmgroup   2025-11-05T19:56:41                           ASC00038HISTORY  PARM  :infile=detections/fluxfit/28964.pi[SPECTRUM]            ASC00039HISTORY  PARM  :outfile=detections/fluxfit/28964_grp.pi                 ASC00040HISTORY  PARM  :grouptype=NUM_CTS                                       ASC00041HISTORY  PARM  :grouptypeval=15                                         ASC00042HISTORY  PARM  :binspec=                                                ASC00043HISTORY  PARM  :xcolumn=channel                                         ASC00044HISTORY  PARM  :ycolumn=counts                                          ASC00045HISTORY  PARM  :tabspec=                                                ASC00046HISTORY  PARM  :tabcolumn=                                              ASC00047HISTORY  PARM  :stopspec=                                               ASC00048HISTORY  PARM  :stopcolumn=                                             ASC00049HISTORY  PARM  :errcolumn=                                              ASC00050HISTORY  PARM  :clobber=yes                                             ASC00051HISTORY  PARM  :verbose=1                                               ASC00052HISTORY  PARM  :maxlength=0                                             ASC00053COMMENT specextract version 26 October 2023                                     HISTORY  TOOL  :specextract   2025-11-05T19:56:41                       ASC00054HISTORY  PARM  :infile=detections/28964/acisf28964N002_evt2.fits[sky=regASC00055HISTORY  CONT  :ion(detections/regions/source_28964.reg)]               ASC00056HISTORY  PARM  :outroot=detections/fluxfit/28964                        ASC00057HISTORY  PARM  :bkgfile=detections/28964/acisf28964N002_evt2.fits[sky=reASC00058HISTORY  CONT  :gion(detections/regions/bkg_28964.reg)]                 ASC00059HISTORY  PARM  :asp=                                                    ASC00060HISTORY  PARM  :dtffile=                                                ASC00061HISTORY  PARM  :mskfile=                                                ASC00062HISTORY  PARM  :rmffile=CALDB                                           ASC00063HISTORY  PARM  :badpixfile=                                             ASC00064HISTORY  PARM  :dafile=CALDB                                            ASC00065HISTORY  PARM  :bkgresp=yes                                             ASC00066HISTORY  PARM  :weight=no                                               ASC00067HISTORY  PARM  :weight_rmf=no                                           ASC00068HISTORY  PARM  :resp_pos=REGION                                         ASC00069HISTORY  PARM  :refcoord=                                               ASC00070HISTORY  PARM  :correctpsf=yes                                          ASC00071HISTORY  PARM  :combine=no                                              ASC00072HISTORY  PARM  :readout_streakspec=no                                   ASC00073HISTORY  PARM  :grouptype=NUM_CTS                                       ASC00074HISTORY  PARM  :binspec=15                                              ASC00075HISTORY  PARM  :bkg_grouptype=NONE                                      ASC00076HISTORY  PARM  :bkg_binspec=                                            ASC00077HISTORY  PARM  :energy=0.3:11.0:0.01                                    ASC00078HISTORY  PARM  :channel=1:1024:1                                        ASC00079HISTORY  PARM  :energy_wmap=300:2000                                    ASC00080HISTORY  PARM  :binarfcorr=1.0                                          ASC00081HISTORY  PARM  :binwmap=tdet=8                                          ASC00082HISTORY  PARM  :binarfwmap=1                                            ASC00083HISTORY  PARM  :parallel=yes                                            ASC00084HISTORY  PARM  :nproc=INDEF                                             ASC00085HISTORY  PARM  :tmpdir=/data/tvlieshout/tmp                             ASC00086HISTORY  PARM  :clobber=yes                                             ASC00087HISTORY  PARM  :verbose=1                                               ASC00088SCRPTVER= 'specextract - 26 October 2023'                                       HISTORY  TOOL  :dmhedit   2025-11-05T19:56:41                           ASC00089HISTORY  PARM  :infile=detections/fluxfit/28964_grp.pi                  ASC00090HISTORY  PARM  :filelist=none                                           ASC00091HISTORY  PARM  :operation=add                                           ASC00092HISTORY  PARM  :key=SCRPTVER                                            ASC00093HISTORY  PARM  :value=specextract - 26 October 2023                     ASC00094HISTORY  PARM  :datatype=indef                                          ASC00095HISTORY  PARM  :unit=                                                   ASC00096HISTORY  PARM  :comment=                                                ASC00097HISTORY  PARM  :verbose=0                                               ASC00098SCRPTMOD= '_tools.specextract - 8 July 2024'                                    HISTORY  TOOL  :dmhedit   2025-11-05T19:56:41                           ASC00099HISTORY  PARM  :infile=detections/fluxfit/28964_grp.pi                  ASC00100HISTORY  PARM  :filelist=none                                           ASC00101HISTORY  PARM  :operation=add                                           ASC00102HISTORY  PARM  :key=SCRPTMOD                                            ASC00103HISTORY  PARM  :value=_tools.specextract - 8 July 2024                  ASC00104HISTORY  PARM  :datatype=indef                                          ASC00105HISTORY  PARM  :unit=                                                   ASC00106HISTORY  PARM  :comment=                                                ASC00107HISTORY  PARM  :verbose=0                                               ASC00108HISTORY  TOOL  :dmhedit   2025-11-05T19:56:42                           ASC00109HISTORY  PARM  :infile=detections/fluxfit/28964_grp.pi                  ASC00110HISTORY  PARM  :filelist=none                                           ASC00111HISTORY  PARM  :operation=add                                           ASC00112HISTORY  PARM  :key=RESPFILE                                            ASC00113HISTORY  PARM  :value=28964.rmf                                         ASC00114HISTORY  PARM  :datatype=indef                                          ASC00115HISTORY  PARM  :unit=                                                   ASC00116HISTORY  PARM  :comment=                                                ASC00117HISTORY  PARM  :verbose=1                                               ASC00118HISTORY  TOOL  :dmhedit   2025-11-05T19:56:42                           ASC00119HISTORY  PARM  :infile=detections/fluxfit/28964_grp.pi                  ASC00120HISTORY  PARM  :filelist=none                                           ASC00121HISTORY  PARM  :operation=add                                           ASC00122HISTORY  PARM  :key=ANCRFILE                                            ASC00123HISTORY  PARM  :value=28964.corr.arf                                    ASC00124HISTORY  PARM  :datatype=indef                                          ASC00125HISTORY  PARM  :unit=                                                   ASC00126HISTORY  PARM  :comment=                                                ASC00127HISTORY  PARM  :verbose=1                                               ASC00128HISTORY  TOOL  :dmhedit   2025-11-05T19:56:42                           ASC00129HISTORY  PARM  :infile=detections/fluxfit/28964_grp.pi                  ASC00130HISTORY  PARM  :filelist=none                                           ASC00131HISTORY  PARM  :operation=add                                           ASC00132HISTORY  PARM  :key=BACKFILE                                            ASC00133HISTORY  PARM  :value=28964_bkg.pi                                      ASC00134HISTORY  PARM  :datatype=indef                                          ASC00135HISTORY  PARM  :unit=                                                   ASC00136HISTORY  PARM  :comment=                                                ASC00137HISTORY  PARM  :verbose=1                                               ASC00138END                                                                                ?ğ                          @&      @
+ˆr“ıo4   @                   ÿÿ       @&      @
+ˆr“ıo4   @                  ÿÿ       @&      @
+ˆr“ıo4   @                  ÿÿ       @&      @
+ˆr“ıo4   @                  ÿÿ       @&      @
+ˆr“ıo4   @                  ÿÿ       @&      @
+ˆr“ıo4   @                  ÿÿ       @&      @
+ˆr“ıo4   @                   ÿÿ       @&      @
+ˆr“ıo4   	@"                  ÿÿ       @&      @
+ˆr“ıo4   
+@$                  ÿÿ       @&      @
+ˆr“ıo4   @&                  ÿÿ       @&      @
+ˆr“ıo4   @(                  ÿÿ       @&      @
+ˆr“ıo4   @*                  ÿÿ       @&      @
+ˆr“ıo4   @,                  ÿÿ       @&      @
+ˆr“ıo4   @.                  ÿÿ       @&      @
+ˆr“ıo4   @0                  ÿÿ       @&      @
+ˆr“ıo4   @1                  ÿÿ       @&      @
+ˆr“ıo4   @2                  ÿÿ       @&      @
+ˆr“ıo4   @3                  ÿÿ       @&      @
+ˆr“ıo4   @4                  ÿÿ       @&      @
+ˆr“ıo4   @5                  ÿÿ       @&      @
+ˆr“ıo4   @6                  ÿÿ       @&      @
+ˆr“ıo4   @7                  ÿÿ       @&      @
+ˆr“ıo4   @8                  ÿÿ       @&      @
+ˆr“ıo4   @9                  ÿÿ       @&      @
+ˆr“ıo4   @:                  ÿÿ       @&      @
+ˆr“ıo4   @;                  ÿÿ       @&      @
+ˆr“ıo4   @<                  ÿÿ       @&      @
+ˆr“ıo4   @=                  ÿÿ       @&      @
+ˆr“ıo4   @>                  ÿÿ       @&      @
+ˆr“ıo4   @?                  ÿÿ       @&      @
+ˆr“ıo4    @@                  ÿÿ       @&      @
+ˆr“ıo4   !@@€                 ÿÿ       @&      @
+ˆr“ıo4   "@A                  ÿÿ       @&      @
+ˆr“ıo4   #@A€                 ÿÿ       @&      @
+ˆr“ıo4   $@B                  ÿÿ       @&      @
+ˆr“ıo4   %@B€                 ÿÿ       @&      @
+ˆr“ıo4   &@C                  ÿÿ       @&      @
+ˆr“ıo4   '@C€                 ÿÿ       @&      @
+ˆr“ıo4   (@D                  ÿÿ       @&      @
+ˆr“ıo4   )@D€                 ÿÿ       @&      @
+ˆr“ıo4   *@E                  ÿÿ       @&      @
+ˆr“ıo4   +@E€                 ÿÿ       @&      @
+ˆr“ıo4   ,@F                  ÿÿ       @&      @
+ˆr“ıo4   -@F€                 ÿÿ       @&      @
+ˆr“ıo4   .@G                  ÿÿ       @&      @
+ˆr“ıo4   /@G€                 ÿÿ       @&      @
+ˆr“ıo4   0@H                  ÿÿ       @&      @
+ˆr“ıo4   1@H€                 ÿÿ       @&      @
+ˆr“ıo4   2@I                  ÿÿ       @&      @
+ˆr“ıo4   3@I€                 ÿÿ       @&      @
+ˆr“ıo4   4@J                  ÿÿ       @&      @
+ˆr“ıo4   5@J€                 ÿÿ       @&      @
+ˆr“ıo4   6@K                  ÿÿ       @&      @
+ˆr“ıo4   7@K€                 ÿÿ       @&      @
+ˆr“ıo4   8@L                  ÿÿ       @&      @
+ˆr“ıo4   9@L€                 ÿÿ       @&      @
+ˆr“ıo4   :@M                  ÿÿ       @&      @
+ˆr“ıo4   ;@M€                 ÿÿ       @&      @
+ˆr“ıo4   <@N                  ÿÿ       @&      @
+ˆr“ıo4   =@N€                 ÿÿ       @&      @
+ˆr“ıo4   >@O                  ÿÿ       @&      @
+ˆr“ıo4   ?@O€                 ÿÿ       @&      @
+ˆr“ıo4   @@P                  ÿÿ       @&      @
+ˆr“ıo4   A@P@                 ÿÿ       @&      @
+ˆr“ıo4   B@P€                 ÿÿ       @&      @
+ˆr“ıo4   C@PÀ                 ÿÿ       @&      @
+ˆr“ıo4   D@Q                  ÿÿ       @&      @
+ˆr“ıo4   E@Q@                 ÿÿ       @&      @
+ˆr“ıo4   F@Q€                 ÿÿ       @&      @
+ˆr“ıo4   G@QÀ                 ÿÿ       @&      @
+ˆr“ıo4   H@R                  ÿÿ       @&      @
+ˆr“ıo4   I@R@                 ÿÿ       @&      @
+ˆr“ıo4   J@R€                 ÿÿ       @&      @
+ˆr“ıo4   K@RÀ        ?%ìE~ÿÿ       @&      @
+ˆr“ıo4   L@S                  ÿÿ       @&      @
+ˆr“ıo4   M@S@                 ÿÿ       @&      @
+ˆr“ıo4   N@S€                 ÿÿ       @&      @
+ˆr“ıo4   O@SÀ                 ÿÿ       @&      @
+ˆr“ıo4   P@T                  ÿÿ       @&      @
+ˆr“ıo4   Q@T@                 ÿÿ       @&      @
+ˆr“ıo4   R@T€                 ÿÿ       @&      @
+ˆr“ıo4   S@TÀ                 ÿÿ       @&      @
+ˆr“ıo4   T@U                  ÿÿ       @&      @
+ˆr“ıo4   U@U@                 ÿÿ       @&      @
+ˆr“ıo4   V@U€                 ÿÿ       @&      @
+ˆr“ıo4   W@UÀ                 ÿÿ       @&      @
+ˆr“ıo4   X@V                  ÿÿ       @&      @
+ˆr“ıo4   Y@V@        ?ìE~ÿÿ       @&      @
+ˆr“ıo4   Z@V€                 ÿÿ       @&      @
+ˆr“ıo4   [@VÀ                 ÿÿ       @&      @
+ˆr“ıo4   \@W                  ÿÿ       @&      @
+ˆr“ıo4   ]@W@                 ÿÿ       @&      @
+ˆr“ıo4   ^@W€                 ÿÿ       @&      @
+ˆr“ıo4   _@WÀ                 ÿÿ       @&      @
+ˆr“ıo4   `@X                  ÿÿ       @&      @
+ˆr“ıo4   a@X@                 ÿÿ       @&      @
+ˆr“ıo4   b@X€                 ÿÿ       @&      @
+ˆr“ıo4   c@XÀ                 ÿÿ       @&      @
+ˆr“ıo4   d@Y                  ÿÿ       @&      @
+ˆr“ıo4   e@Y@                 ÿÿ       @&      @
+ˆr“ıo4   f@Y€        ?ìE~ÿÿ       @&      @
+ˆr“ıo4   g@YÀ                 ÿÿ       @&      @
+ˆr“ıo4   h@Z                  ÿÿ       @&      @
+ˆr“ıo4   i@Z@                 ÿÿ       @&      @
+ˆr“ıo4   j@Z€                 ÿÿ       @&      @
+ˆr“ıo4   k@ZÀ        ?ìE~ÿÿ       @&      @
+ˆr“ıo4   l@[         ?ìE~ÿÿ       @&      @
+ˆr“ıo4   m@[@                 ÿÿ       @&      @
+ˆr“ıo4   n@[€                 ÿÿ       @&      @
+ˆr“ıo4   o@[À                 ÿÿ       @&      @
+ˆr“ıo4   p@\                  ÿÿ       @&      @
+ˆr“ıo4   q@\@                 ÿÿ       @&      @
+ˆr“ıo4   r@\€                 ÿÿ       @&      @
+ˆr“ıo4   s@\À                 ÿÿ       @&      @
+ˆr“ıo4   t@]                  ÿÿ       @&      @
+ˆr“ıo4   u@]@                 ÿÿ       @&      @
+ˆr“ıo4   v@]€                 ÿÿ       @&      @
+ˆr“ıo4   w@]À                 ÿÿ       @&      @
+ˆr“ıo4   x@^                  ÿÿ       @&      @
+ˆr“ıo4   y@^@                 ÿÿ       @&      @
+ˆr“ıo4   z@^€                 ÿÿ       @&      @
+ˆr“ıo4   {@^À                 ÿÿ       @&      @
+ˆr“ıo4   |@_                  ÿÿ       @&      @
+ˆr“ıo4   }@_@                 ÿÿ       @&      @
+ˆr“ıo4   ~@_€                 ÿÿ       @&      @
+ˆr“ıo4   @_À                 ÿÿ       @&      @
+ˆr“ıo4   €@`                  ÿÿ       @&      @
+ˆr“ıo4   @`                  ÿÿ       @&      @
+ˆr“ıo4   ‚@`@                 ÿÿ       @&      @
+ˆr“ıo4   ƒ@``                 ÿÿ       @&      @
+ˆr“ıo4   „@`€                 ÿÿ       @&      @
+ˆr“ıo4   …@`                  ÿÿ       @&      @
+ˆr“ıo4   †@`À                 ÿÿ       @&      @
+ˆr“ıo4   ‡@`à                 ÿÿ       @&      @
+ˆr“ıo4   ˆ@a                  ÿÿ       @&      @
+ˆr“ıo4   ‰@a                  ÿÿ       @&      @
+ˆr“ıo4   Š@a@                 ÿÿ       @&      @
+ˆr“ıo4   ‹@a`                 ÿÿ       @&      @
+ˆr“ıo4   Œ@a€                 ÿÿ       @&      @
+ˆr“ıo4   @a                  ÿÿ       @&      @
+ˆr“ıo4   @aÀ                 ÿÿ       @&      @
+ˆr“ıo4   @aà                 ÿÿ       @&      @
+ˆr“ıo4   @b                  ÿÿ       @&      @
+ˆr“ıo4   ‘@b                  ÿÿ       @&      @
+ˆr“ıo4   ’@b@                 ÿÿ       @&      @
+ˆr“ıo4   “@b`                 ÿÿ       @&      @
+ˆr“ıo4   ”@b€        ?ìE~ÿÿ       @&      @
+ˆr“ıo4   •@b                  ÿÿ       @&      @
+ˆr“ıo4   –@bÀ                 ÿÿ       @&      @
+ˆr“ıo4   —@bà                 ÿÿ       @&      @
+ˆr“ıo4   ˜@c                  ÿÿ       @&      @
+ˆr“ıo4   ™@c                  ÿÿ       @&      @
+ˆr“ıo4   š@c@                 ÿÿ       @&      @
+ˆr“ıo4   ›@c`                 ÿÿ       @&      @
+ˆr“ıo4   œ@c€                 ÿÿ       @&      @
+ˆr“ıo4   @c                  ÿÿ       @&      @
+ˆr“ıo4   @cÀ                 ÿÿ       @&      @
+ˆr“ıo4   Ÿ@cà                 ÿÿ       @&      @
+ˆr“ıo4    @d                  ÿÿ       @&      @
+ˆr“ıo4   ¡@d                  ÿÿ       @&      @
+ˆr“ıo4   ¢@d@                 ÿÿ       @&      @
+ˆr“ıo4   £@d`                 ÿÿ       @&      @
+ˆr“ıo4   ¤@d€                 ÿÿ       @&      @
+ˆr“ıo4   ¥@d                  ÿÿ       @&      @
+ˆr“ıo4   ¦@dÀ                 ÿÿ       @&      @
+ˆr“ıo4   §@dà                 ÿÿ       @&      @
+ˆr“ıo4   ¨@e                  ÿÿ       @&      @
+ˆr“ıo4   ©@e                  ÿÿ       @&      @
+ˆr“ıo4   ª@e@                 ÿÿ       @&      @
+ˆr“ıo4   «@e`                 ÿÿ       @&      @
+ˆr“ıo4   ¬@e€                 ÿÿ       @&      @
+ˆr“ıo4   ­@e                  ÿÿ       @&      @
+ˆr“ıo4   ®@eÀ                 ÿÿ       @&      @
+ˆr“ıo4   ¯@eà                 ÿÿ       @&      @
+ˆr“ıo4   °@f                  ÿÿ       @&      @
+ˆr“ıo4   ±@f                  ÿÿ       @&      @
+ˆr“ıo4   ²@f@                 ÿÿ       @&      @
+ˆr“ıo4   ³@f`                 ÿÿ       @&      @
+ˆr“ıo4   ´@f€                 ÿÿ       @&      @
+ˆr“ıo4   µ@f                  ÿÿ       @&      @
+ˆr“ıo4   ¶@fÀ                 ÿÿ       @&      @
+ˆr“ıo4   ·@fà                 ÿÿ       @&      @
+ˆr“ıo4   ¸@g                  ÿÿ       @&      @
+ˆr“ıo4   ¹@g                  ÿÿ       @&      @
+ˆr“ıo4   º@g@                 ÿÿ       @&      @
+ˆr“ıo4   »@g`                 ÿÿ       @&      @
+ˆr“ıo4   ¼@g€                 ÿÿ       @&      @
+ˆr“ıo4   ½@g                  ÿÿ       @&      @
+ˆr“ıo4   ¾@gÀ                 ÿÿ       @&      @
+ˆr“ıo4   ¿@gà                 ÿÿ       @&      @
+ˆr“ıo4   À@h                  ÿÿ       @&      @
+ˆr“ıo4   Á@h                  ÿÿ       @&      @
+ˆr“ıo4   Â@h@                 ÿÿ       @&      @
+ˆr“ıo4   Ã@h`                 ÿÿ       @&      @
+ˆr“ıo4   Ä@h€                 ÿÿ       @&      @
+ˆr“ıo4   Å@h                  ÿÿ       @&      @
+ˆr“ıo4   Æ@hÀ                 ÿÿ       @&      @
+ˆr“ıo4   Ç@hà                 ÿÿ       @&      @
+ˆr“ıo4   È@i                  ÿÿ       @&      @
+ˆr“ıo4   É@i                  ÿÿ       @&      @
+ˆr“ıo4   Ê@i@                 ÿÿ       @&      @
+ˆr“ıo4   Ë@i`                 ÿÿ       @&      @
+ˆr“ıo4   Ì@i€                 ÿÿ       @&      @
+ˆr“ıo4   Í@i                  ÿÿ       @&      @
+ˆr“ıo4   Î@iÀ                 ÿÿ       @&      @
+ˆr“ıo4   Ï@ià                 ÿÿ       @&      @
+ˆr“ıo4   Ğ@j                  ÿÿ       @&      @
+ˆr“ıo4   Ñ@j                  ÿÿ       @&      @
+ˆr“ıo4   Ò@j@                 ÿÿ       @&      @
+ˆr“ıo4   Ó@j`                 ÿÿ       @&      @
+ˆr“ıo4   Ô@j€                 ÿÿ       @&      @
+ˆr“ıo4   Õ@j                  ÿÿ       @&      @
+ˆr“ıo4   Ö@jÀ                 ÿÿ       @&      @
+ˆr“ıo4   ×@jà                 ÿÿ       @&      @
+ˆr“ıo4   Ø@k                  ÿÿ       @&      @
+ˆr“ıo4   Ù@k                  ÿÿ       @&      @
+ˆr“ıo4   Ú@k@                 ÿÿ       @&      @
+ˆr“ıo4   Û@k`                 ÿÿ       @&      @
+ˆr“ıo4   Ü@k€                 ÿÿ       @&      @
+ˆr“ıo4   İ@k                  ÿÿ       @&      @
+ˆr“ıo4   Ş@kÀ                 ÿÿ       @&      @
+ˆr“ıo4   ß@kà                 ÿÿ       @&      @
+ˆr“ıo4   à@l         ?ìE~ÿÿ       @&      @
+ˆr“ıo4   á@l                  ÿÿ       @&      @
+ˆr“ıo4   â@l@                 ÿÿ       @&      @
+ˆr“ıo4   ã@l`                 ÿÿ       @&      @
+ˆr“ıo4   ä@l€                 ÿÿ       @&      @
+ˆr“ıo4   å@l                  ÿÿ       @&      @
+ˆr“ıo4   æ@lÀ                 ÿÿ       @&      @
+ˆr“ıo4   ç@là                 ÿÿ       @&      @
+ˆr“ıo4   è@m                  ÿÿ       @&      @
+ˆr“ıo4   é@m                  ÿÿ       @&      @
+ˆr“ıo4   ê@m@                 ÿÿ       @&      @
+ˆr“ıo4   ë@m`                 ÿÿ       @&      @
+ˆr“ıo4   ì@m€                 ÿÿ       @&      @
+ˆr“ıo4   í@m                  ÿÿ       @&      @
+ˆr“ıo4   î@mÀ                 ÿÿ       @&      @
+ˆr“ıo4   ï@mà                 ÿÿ       @&      @
+ˆr“ıo4   ğ@n                  ÿÿ       @&      @
+ˆr“ıo4   ñ@n                  ÿÿ       @&      @
+ˆr“ıo4   ò@n@                 ÿÿ       @&      @
+ˆr“ıo4   ó@n`                 ÿÿ       @&      @
+ˆr“ıo4   ô@n€                 ÿÿ       @&      @
+ˆr“ıo4   õ@n                  ÿÿ       @&      @
+ˆr“ıo4   ö@nÀ                 ÿÿ       @&      @
+ˆr“ıo4   ÷@nà        ?ìE~ÿÿ       @&      @
+ˆr“ıo4   ø@o                  ÿÿ       @&      @
+ˆr“ıo4   ù@o                  ÿÿ       @&      @
+ˆr“ıo4   ú@o@                 ÿÿ       @&      @
+ˆr“ıo4   û@o`                 ÿÿ       @&      @
+ˆr“ıo4   ü@o€                 ÿÿ       @&      @
+ˆr“ıo4   ı@o                  ÿÿ       @&      @
+ˆr“ıo4   ş@oÀ                 ÿÿ       @&      @
+ˆr“ıo4   ÿ@oà                 ÿÿ       @&      @
+ˆr“ıo4   @p                  ÿÿ       @&      @
+ˆr“ıo4  @p                 ÿÿ       @&      @
+ˆr“ıo4  @p                  ÿÿ       @&      @
+ˆr“ıo4  @p0                 ÿÿ       @&      @
+ˆr“ıo4  @p@                 ÿÿ       @&      @
+ˆr“ıo4  @pP                 ÿÿ       @&      @
+ˆr“ıo4  @p`                 ÿÿ       @&      @
+ˆr“ıo4  @pp                 ÿÿ       @&      @
+ˆr“ıo4  @p€                 ÿÿ       @&      @
+ˆr“ıo4  	@p        ?ìE~ÿÿ       @&      @
+ˆr“ıo4  
+@p                  ÿÿ       @&      @
+ˆr“ıo4  @p°                 ÿÿ       @&      @
+ˆr“ıo4  @pÀ                 ÿÿ       @&      @
+ˆr“ıo4  @pĞ                 ÿÿ       @&      @
+ˆr“ıo4  @pà                 ÿÿ       @&      @
+ˆr“ıo4  @pğ                 ÿÿ       @&      @
+ˆr“ıo4  @q                  ÿÿ       @&      @
+ˆr“ıo4  @q                 ÿÿ       @&      @
+ˆr“ıo4  @q                  ÿÿ       @&      @
+ˆr“ıo4  @q0                 ÿÿ       @&      @
+ˆr“ıo4  @q@                 ÿÿ       @&      @
+ˆr“ıo4  @qP                 ÿÿ       @&      @
+ˆr“ıo4  @q`                 ÿÿ       @&      @
+ˆr“ıo4  @qp                 ÿÿ       @&      @
+ˆr“ıo4  @q€                 ÿÿ       @&      @
+ˆr“ıo4  @q                 ÿÿ       @&      @
+ˆr“ıo4  @q                  ÿÿ       @&      @
+ˆr“ıo4  @q°                 ÿÿ       @&      @
+ˆr“ıo4  @qÀ                 ÿÿ       @&      @
+ˆr“ıo4  @qĞ                 ÿÿ       @&      @
+ˆr“ıo4  @qà                 ÿÿ       @&      @
+ˆr“ıo4  @qğ                 ÿÿ       @&      @
+ˆr“ıo4   @r                  ÿÿ       @&      @
+ˆr“ıo4  !@r                 ÿÿ       @&      @
+ˆr“ıo4  "@r                  ÿÿ       @&      @
+ˆr“ıo4  #@r0                 ÿÿ       @&      @
+ˆr“ıo4  $@r@                 ÿÿ       @&      @
+ˆr“ıo4  %@rP                 ÿÿ       @&      @
+ˆr“ıo4  &@r`                 ÿÿ       @&      @
+ˆr“ıo4  '@rp                 ÿÿ       @&      @
+ˆr“ıo4  (@r€                 ÿÿ       @&      @
+ˆr“ıo4  )@r                 ÿÿ       @&      @
+ˆr“ıo4  *@r                  ÿÿ       @&      @
+ˆr“ıo4  +@r°                 ÿÿ       @&      @
+ˆr“ıo4  ,@rÀ                 ÿÿ       @&      @
+ˆr“ıo4  -@rĞ                 ÿÿ       @&      @
+ˆr“ıo4  .@rà                 ÿÿ       @&      @
+ˆr“ıo4  /@rğ                 ÿÿ       @&      @
+ˆr“ıo4  0@s                  ÿÿ       @&      @
+ˆr“ıo4  1@s                 ÿÿ       @&      @
+ˆr“ıo4  2@s                  ÿÿ       @&      @
+ˆr“ıo4  3@s0                 ÿÿ       @&      @
+ˆr“ıo4  4@s@                 ÿÿ       @&      @
+ˆr“ıo4  5@sP                 ÿÿ       @&      @
+ˆr“ıo4  6@s`                 ÿÿ       @&      @
+ˆr“ıo4  7@sp                 ÿÿ       @&      @
+ˆr“ıo4  8@s€                 ÿÿ       @&      @
+ˆr“ıo4  9@s                 ÿÿ       @&      @
+ˆr“ıo4  :@s                  ÿÿ       @&      @
+ˆr“ıo4  ;@s°                 ÿÿ       @&      @
+ˆr“ıo4  <@sÀ                 ÿÿ       @&      @
+ˆr“ıo4  =@sĞ                 ÿÿ       @&      @
+ˆr“ıo4  >@sà                 ÿÿ       @&      @
+ˆr“ıo4  ?@sğ                 ÿÿ       @&      @
+ˆr“ıo4  @@t                  ÿÿ       @&      @
+ˆr“ıo4  A@t                 ÿÿ       @&      @
+ˆr“ıo4  B@t                  ÿÿ       @&      @
+ˆr“ıo4  C@t0        ?ìE~ÿÿ       @&      @
+ˆr“ıo4  D@t@                 ÿÿ       @&      @
+ˆr“ıo4  E@tP                 ÿÿ       @&      @
+ˆr“ıo4  F@t`                 ÿÿ       @&      @
+ˆr“ıo4  G@tp                 ÿÿ       @&      @
+ˆr“ıo4  H@t€                 ÿÿ       @&      @
+ˆr“ıo4  I@t                 ÿÿ       @&      @
+ˆr“ıo4  J@t                  ÿÿ       @&      @
+ˆr“ıo4  K@t°                 ÿÿ       @&      @
+ˆr“ıo4  L@tÀ                 ÿÿ       @&      @
+ˆr“ıo4  M@tĞ                 ÿÿ       @&      @
+ˆr“ıo4  N@tà                 ÿÿ       @&      @
+ˆr“ıo4  O@tğ                 ÿÿ       @&      @
+ˆr“ıo4  P@u                  ÿÿ       @&      @
+ˆr“ıo4  Q@u                 ÿÿ       @&      @
+ˆr“ıo4  R@u                  ÿÿ       @&      @
+ˆr“ıo4  S@u0                 ÿÿ       @&      @
+ˆr“ıo4  T@u@                 ÿÿ       @&      @
+ˆr“ıo4  U@uP                 ÿÿ       @&      @
+ˆr“ıo4  V@u`                 ÿÿ       @&      @
+ˆr“ıo4  W@up                 ÿÿ       @&      @
+ˆr“ıo4  X@u€                 ÿÿ       @&      @
+ˆr“ıo4  Y@u                 ÿÿ       @&      @
+ˆr“ıo4  Z@u                  ÿÿ       @&      @
+ˆr“ıo4  [@u°                 ÿÿ       @&      @
+ˆr“ıo4  \@uÀ                 ÿÿ       @&      @
+ˆr“ıo4  ]@uĞ                 ÿÿ       @&      @
+ˆr“ıo4  ^@uà                 ÿÿ       @&      @
+ˆr“ıo4  _@uğ                 ÿÿ       @&      @
+ˆr“ıo4  `@v                  ÿÿ       @&      @
+ˆr“ıo4  a@v                 ÿÿ       @&      @
+ˆr“ıo4  b@v                  ÿÿ       @&      @
+ˆr“ıo4  c@v0                 ÿÿ       @&      @
+ˆr“ıo4  d@v@                 ÿÿ       @&      @
+ˆr“ıo4  e@vP                 ÿÿ       @&      @
+ˆr“ıo4  f@v`                 ÿÿ       @&      @
+ˆr“ıo4  g@vp                 ÿÿ       @&      @
+ˆr“ıo4  h@v€                 ÿÿ       @&      @
+ˆr“ıo4  i@v                 ÿÿ       @&      @
+ˆr“ıo4  j@v                  ÿÿ       @&      @
+ˆr“ıo4  k@v°                 ÿÿ       @&      @
+ˆr“ıo4  l@vÀ                 ÿÿ       @&      @
+ˆr“ıo4  m@vĞ                 ÿÿ       @&      @
+ˆr“ıo4  n@và                 ÿÿ       @&      @
+ˆr“ıo4  o@vğ                 ÿÿ       @&      @
+ˆr“ıo4  p@w                  ÿÿ       @&      @
+ˆr“ıo4  q@w                 ÿÿ       @&      @
+ˆr“ıo4  r@w                  ÿÿ       @&      @
+ˆr“ıo4  s@w0                 ÿÿ       @&      @
+ˆr“ıo4  t@w@                 ÿÿ       @&      @
+ˆr“ıo4  u@wP                 ÿÿ       @&      @
+ˆr“ıo4  v@w`                 ÿÿ       @&      @
+ˆr“ıo4  w@wp                 ÿÿ       @&      @
+ˆr“ıo4  x@w€                 ÿÿ       @&      @
+ˆr“ıo4  y@w                 ÿÿ       @&      @
+ˆr“ıo4  z@w                  ÿÿ       @&      @
+ˆr“ıo4  {@w°                 ÿÿ       @&      @
+ˆr“ıo4  |@wÀ                 ÿÿ       @&      @
+ˆr“ıo4  }@wĞ                 ÿÿ       @&      @
+ˆr“ıo4  ~@wà                 ÿÿ       @&      @
+ˆr“ıo4  @wğ                 ÿÿ       @&      @
+ˆr“ıo4  €@x                  ÿÿ       @&      @
+ˆr“ıo4  @x                 ÿÿ       @&      @
+ˆr“ıo4  ‚@x                  ÿÿ       @&      @
+ˆr“ıo4  ƒ@x0                 ÿÿ       @&      @
+ˆr“ıo4  „@x@                 ÿÿ       @&      @
+ˆr“ıo4  …@xP                 ÿÿ       @&      @
+ˆr“ıo4  †@x`                 ÿÿ       @&      @
+ˆr“ıo4  ‡@xp                 ÿÿ       @&      @
+ˆr“ıo4  ˆ@x€                 ÿÿ       @&      @
+ˆr“ıo4  ‰@x                 ÿÿ       @&      @
+ˆr“ıo4  Š@x                  ÿÿ       @&      @
+ˆr“ıo4  ‹@x°                 ÿÿ       @&      @
+ˆr“ıo4  Œ@xÀ                 ÿÿ       @&      @
+ˆr“ıo4  @xĞ                 ÿÿ       @&      @
+ˆr“ıo4  @xà                 ÿÿ       @&      @
+ˆr“ıo4  @xğ                 ÿÿ       @&      @
+ˆr“ıo4  @y                  ÿÿ       @&      @
+ˆr“ıo4  ‘@y                 ÿÿ       @&      @
+ˆr“ıo4  ’@y                  ÿÿ       @&      @
+ˆr“ıo4  “@y0                 ÿÿ       @&      @
+ˆr“ıo4  ”@y@                 ÿÿ       @&      @
+ˆr“ıo4  •@yP                 ÿÿ       @&      @
+ˆr“ıo4  –@y`                 ÿÿ       @&      @
+ˆr“ıo4  —@yp                 ÿÿ       @&      @
+ˆr“ıo4  ˜@y€                 ÿÿ       @&      @
+ˆr“ıo4  ™@y                 ÿÿ       @&      @
+ˆr“ıo4  š@y                  ÿÿ       @&      @
+ˆr“ıo4  ›@y°                 ÿÿ       @&      @
+ˆr“ıo4  œ@yÀ                 ÿÿ       @&      @
+ˆr“ıo4  @yĞ                 ÿÿ       @&      @
+ˆr“ıo4  @yà                 ÿÿ       @&      @
+ˆr“ıo4  Ÿ@yğ                 ÿÿ       @&      @
+ˆr“ıo4   @z                  ÿÿ       @&      @
+ˆr“ıo4  ¡@z                 ÿÿ       @&      @
+ˆr“ıo4  ¢@z                  ÿÿ       @&      @
+ˆr“ıo4  £@z0                 ÿÿ       @&      @
+ˆr“ıo4  ¤@z@                 ÿÿ       @&      @
+ˆr“ıo4  ¥@zP                 ÿÿ       @&      @
+ˆr“ıo4  ¦@z`                 ÿÿ       @&      @
+ˆr“ıo4  §@zp                 ÿÿ       @&      @
+ˆr“ıo4  ¨@z€                 ÿÿ       @&      @
+ˆr“ıo4  ©@z                 ÿÿ       @&      @
+ˆr“ıo4  ª@z                  ÿÿ       @&      @
+ˆr“ıo4  «@z°                 ÿÿ       @&      @
+ˆr“ıo4  ¬@zÀ                 ÿÿ       @&      @
+ˆr“ıo4  ­@zĞ                 ÿÿ       @&      @
+ˆr“ıo4  ®@zà                 ÿÿ       @&      @
+ˆr“ıo4  ¯@zğ                 ÿÿ       @&      @
+ˆr“ıo4  °@{                  ÿÿ       @&      @
+ˆr“ıo4  ±@{                 ÿÿ       @&      @
+ˆr“ıo4  ²@{                  ÿÿ       @&      @
+ˆr“ıo4  ³@{0                 ÿÿ       @&      @
+ˆr“ıo4  ´@{@                 ÿÿ       @&      @
+ˆr“ıo4  µ@{P                 ÿÿ       @&      @
+ˆr“ıo4  ¶@{`                 ÿÿ       @&      @
+ˆr“ıo4  ·@{p                 ÿÿ       @&      @
+ˆr“ıo4  ¸@{€                 ÿÿ       @&      @
+ˆr“ıo4  ¹@{                 ÿÿ       @&      @
+ˆr“ıo4  º@{                  ÿÿ       @&      @
+ˆr“ıo4  »@{°                 ÿÿ       @&      @
+ˆr“ıo4  ¼@{À                 ÿÿ       @&      @
+ˆr“ıo4  ½@{Ğ                 ÿÿ       @&      @
+ˆr“ıo4  ¾@{à                 ÿÿ       @&      @
+ˆr“ıo4  ¿@{ğ                 ÿÿ       @&      @
+ˆr“ıo4  À@|                  ÿÿ       @&      @
+ˆr“ıo4  Á@|                 ÿÿ       @&      @
+ˆr“ıo4  Â@|                  ÿÿ       @&      @
+ˆr“ıo4  Ã@|0                 ÿÿ       @&      @
+ˆr“ıo4  Ä@|@                 ÿÿ       @&      @
+ˆr“ıo4  Å@|P                 ÿÿ       @&      @
+ˆr“ıo4  Æ@|`                 ÿÿ       @&      @
+ˆr“ıo4  Ç@|p                 ÿÿ       @&      @
+ˆr“ıo4  È@|€                 ÿÿ       @&      @
+ˆr“ıo4  É@|                 ÿÿ       @&      @
+ˆr“ıo4  Ê@|                  ÿÿ       @&      @
+ˆr“ıo4  Ë@|°                 ÿÿ       @&      @
+ˆr“ıo4  Ì@|À                 ÿÿ       @&      @
+ˆr“ıo4  Í@|Ğ                 ÿÿ       @&      @
+ˆr“ıo4  Î@|à                 ÿÿ       @&      @
+ˆr“ıo4  Ï@|ğ                 ÿÿ       @&      @
+ˆr“ıo4  Ğ@}                  ÿÿ       @&      @
+ˆr“ıo4  Ñ@}                 ÿÿ       @&      @
+ˆr“ıo4  Ò@}                  ÿÿ       @&      @
+ˆr“ıo4  Ó@}0                 ÿÿ       @&      @
+ˆr“ıo4  Ô@}@                 ÿÿ       @&      @
+ˆr“ıo4  Õ@}P                 ÿÿ       @&      @
+ˆr“ıo4  Ö@}`                 ÿÿ       @&      @
+ˆr“ıo4  ×@}p                 ÿÿ       @&      @
+ˆr“ıo4  Ø@}€                 ÿÿ       @&      @
+ˆr“ıo4  Ù@}                 ÿÿ       @&      @
+ˆr“ıo4  Ú@}                  ÿÿ       @&      @
+ˆr“ıo4  Û@}°                 ÿÿ       @&      @
+ˆr“ıo4  Ü@}À                 ÿÿ       @&      @
+ˆr“ıo4  İ@}Ğ                 ÿÿ       @&      @
+ˆr“ıo4  Ş@}à                 ÿÿ       @&      @
+ˆr“ıo4  ß@}ğ                 ÿÿ       @&      @
+ˆr“ıo4  à@~                  ÿÿ       @&      @
+ˆr“ıo4  á@~                 ÿÿ       @&      @
+ˆr“ıo4  â@~                  ÿÿ       @&      @
+ˆr“ıo4  ã@~0                 ÿÿ       @&      @
+ˆr“ıo4  ä@~@                 ÿÿ       @&      @
+ˆr“ıo4  å@~P                 ÿÿ       @&      @
+ˆr“ıo4  æ@~`                 ÿÿ       @&      @
+ˆr“ıo4  ç@~p                 ÿÿ       @&      @
+ˆr“ıo4  è@~€                 ÿÿ       @&      @
+ˆr“ıo4  é@~                 ÿÿ       @&      @
+ˆr“ıo4  ê@~                  ÿÿ       @&      @
+ˆr“ıo4  ë@~°                 ÿÿ       @&      @
+ˆr“ıo4  ì@~À                 ÿÿ       @&      @
+ˆr“ıo4  í@~Ğ                 ÿÿ       @&      @
+ˆr“ıo4  î@~à                 ÿÿ       @&      @
+ˆr“ıo4  ï@~ğ                 ÿÿ       @&      @
+ˆr“ıo4  ğ@                  ÿÿ       @&      @
+ˆr“ıo4  ñ@                 ÿÿ       @&      @
+ˆr“ıo4  ò@                  ÿÿ       @&      @
+ˆr“ıo4  ó@0                 ÿÿ       @&      @
+ˆr“ıo4  ô@@                 ÿÿ       @&      @
+ˆr“ıo4  õ@P                 ÿÿ       @&      @
+ˆr“ıo4  ö@`                 ÿÿ       @&      @
+ˆr“ıo4  ÷@p                 ÿÿ       @&      @
+ˆr“ıo4  ø@€                 ÿÿ       @&      @
+ˆr“ıo4  ù@                 ÿÿ       @&      @
+ˆr“ıo4  ú@                  ÿÿ       @&      @
+ˆr“ıo4  û@°                 ÿÿ       @&      @
+ˆr“ıo4  ü@À                 ÿÿ       @&      @
+ˆr“ıo4  ı@Ğ                 ÿÿ       @&      @
+ˆr“ıo4  ş@à                 ÿÿ       @&      @
+ˆr“ıo4  ÿ@ğ                 ÿÿ       @&      @
+ˆr“ıo4   @€                  ÿÿ       @&      @
+ˆr“ıo4  @€                 ÿÿ       @&      @
+ˆr“ıo4  @€                 ÿÿ       @&      @
+ˆr“ıo4  @€                 ÿÿ       @&      @
+ˆr“ıo4  @€                  ÿÿ       @&      @
+ˆr“ıo4  @€(                 ÿÿ       @&      @
+ˆr“ıo4  @€0                 ÿÿ       @&      @
+ˆr“ıo4  @€8                 ÿÿ       @&      @
+ˆr“ıo4  @€@                 ÿÿ       @&      @
+ˆr“ıo4  	@€H                 ÿÿ       @&      @
+ˆr“ıo4  
+@€P                 ÿÿ       @&      @
+ˆr“ıo4  @€X                 ÿÿ       @&      @
+ˆr“ıo4  @€`                 ÿÿ       @&      @
+ˆr“ıo4  @€h                 ÿÿ       @&      @
+ˆr“ıo4  @€p                 ÿÿ       @&      @
+ˆr“ıo4  @€x                 ÿÿ       @&      @
+ˆr“ıo4  @€€                 ÿÿ       @&      @
+ˆr“ıo4  @€ˆ                 ÿÿ       @&      @
+ˆr“ıo4  @€                 ÿÿ       @&      @
+ˆr“ıo4  @€˜                 ÿÿ       @&      @
+ˆr“ıo4  @€                  ÿÿ       @&      @
+ˆr“ıo4  @€¨                 ÿÿ       @&      @
+ˆr“ıo4  @€°                 ÿÿ       @&      @
+ˆr“ıo4  @€¸                 ÿÿ       @&      @
+ˆr“ıo4  @€À                 ÿÿ       @&      @
+ˆr“ıo4  @€È                 ÿÿ       @&      @
+ˆr“ıo4  @€Ğ                 ÿÿ       @&      @
+ˆr“ıo4  @€Ø                 ÿÿ       @&      @
+ˆr“ıo4  @€à                 ÿÿ       @&      @
+ˆr“ıo4  @€è                 ÿÿ       @&      @
+ˆr“ıo4  @€ğ                 ÿÿ       @&      @
+ˆr“ıo4  @€ø                 ÿÿ       @&      @
+ˆr“ıo4   @                  ÿÿ       @&      @
+ˆr“ıo4  !@                 ÿÿ       @&      @
+ˆr“ıo4  "@                 ÿÿ       @&      @
+ˆr“ıo4  #@                 ÿÿ       @&      @
+ˆr“ıo4  $@                  ÿÿ       @&      @
+ˆr“ıo4  %@(                 ÿÿ       @&      @
+ˆr“ıo4  &@0                 ÿÿ       @&      @
+ˆr“ıo4  '@8                 ÿÿ       @&      @
+ˆr“ıo4  (@@                 ÿÿ       @&      @
+ˆr“ıo4  )@H                 ÿÿ       @&      @
+ˆr“ıo4  *@P                 ÿÿ       @&      @
+ˆr“ıo4  +@X                 ÿÿ       @&      @
+ˆr“ıo4  ,@`                 ÿÿ       @&      @
+ˆr“ıo4  -@h                 ÿÿ       @&      @
+ˆr“ıo4  .@p                 ÿÿ       @&      @
+ˆr“ıo4  /@x                 ÿÿ       @&      @
+ˆr“ıo4  0@€                 ÿÿ       @&      @
+ˆr“ıo4  1@ˆ                 ÿÿ       @&      @
+ˆr“ıo4  2@                 ÿÿ       @&      @
+ˆr“ıo4  3@˜                 ÿÿ       @&      @
+ˆr“ıo4  4@                  ÿÿ       @&      @
+ˆr“ıo4  5@¨                 ÿÿ       @&      @
+ˆr“ıo4  6@°                 ÿÿ       @&      @
+ˆr“ıo4  7@¸                 ÿÿ       @&      @
+ˆr“ıo4  8@À                 ÿÿ       @&      @
+ˆr“ıo4  9@È                 ÿÿ       @&      @
+ˆr“ıo4  :@Ğ                 ÿÿ       @&      @
+ˆr“ıo4  ;@Ø                 ÿÿ       @&      @
+ˆr“ıo4  <@à                 ÿÿ       @&      @
+ˆr“ıo4  =@è                 ÿÿ       @&      @
+ˆr“ıo4  >@ğ                 ÿÿ       @&      @
+ˆr“ıo4  ?@ø                 ÿÿ       @&      @
+ˆr“ıo4  @@‚                  ÿÿ       @&      @
+ˆr“ıo4  A@‚                 ÿÿ       @&      @
+ˆr“ıo4  B@‚                 ÿÿ       @&      @
+ˆr“ıo4  C@‚                 ÿÿ       @&      @
+ˆr“ıo4  D@‚                  ÿÿ       @&      @
+ˆr“ıo4  E@‚(                 ÿÿ       @&      @
+ˆr“ıo4  F@‚0                 ÿÿ       @&      @
+ˆr“ıo4  G@‚8                 ÿÿ       @&      @
+ˆr“ıo4  H@‚@                 ÿÿ       @&      @
+ˆr“ıo4  I@‚H                 ÿÿ       @&      @
+ˆr“ıo4  J@‚P                 ÿÿ       @&      @
+ˆr“ıo4  K@‚X                 ÿÿ       @&      @
+ˆr“ıo4  L@‚`                 ÿÿ       @&      @
+ˆr“ıo4  M@‚h                 ÿÿ       @&      @
+ˆr“ıo4  N@‚p                 ÿÿ       @&      @
+ˆr“ıo4  O@‚x                 ÿÿ       @&      @
+ˆr“ıo4  P@‚€                 ÿÿ       @&      @
+ˆr“ıo4  Q@‚ˆ                 ÿÿ       @&      @
+ˆr“ıo4  R@‚                 ÿÿ       @&      @
+ˆr“ıo4  S@‚˜                 ÿÿ       @&      @
+ˆr“ıo4  T@‚                  ÿÿ       @&      @
+ˆr“ıo4  U@‚¨                 ÿÿ       @&      @
+ˆr“ıo4  V@‚°                 ÿÿ       @&      @
+ˆr“ıo4  W@‚¸                 ÿÿ       @&      @
+ˆr“ıo4  X@‚À                 ÿÿ       @&      @
+ˆr“ıo4  Y@‚È                 ÿÿ       @&      @
+ˆr“ıo4  Z@‚Ğ                 ÿÿ       @&      @
+ˆr“ıo4  [@‚Ø                 ÿÿ       @&      @
+ˆr“ıo4  \@‚à                 ÿÿ       @&      @
+ˆr“ıo4  ]@‚è                 ÿÿ       @&      @
+ˆr“ıo4  ^@‚ğ                 ÿÿ       @&      @
+ˆr“ıo4  _@‚ø                 ÿÿ       @&      @
+ˆr“ıo4  `@ƒ                  ÿÿ       @&      @
+ˆr“ıo4  a@ƒ                 ÿÿ       @&      @
+ˆr“ıo4  b@ƒ                 ÿÿ       @&      @
+ˆr“ıo4  c@ƒ                 ÿÿ       @&      @
+ˆr“ıo4  d@ƒ                  ÿÿ       @&      @
+ˆr“ıo4  e@ƒ(                 ÿÿ       @&      @
+ˆr“ıo4  f@ƒ0                 ÿÿ       @&      @
+ˆr“ıo4  g@ƒ8                 ÿÿ       @&      @
+ˆr“ıo4  h@ƒ@                 ÿÿ       @&      @
+ˆr“ıo4  i@ƒH                 ÿÿ       @&      @
+ˆr“ıo4  j@ƒP                 ÿÿ       @&      @
+ˆr“ıo4  k@ƒX                 ÿÿ       @&      @
+ˆr“ıo4  l@ƒ`                 ÿÿ       @&      @
+ˆr“ıo4  m@ƒh                 ÿÿ       @&      @
+ˆr“ıo4  n@ƒp                 ÿÿ       @&      @
+ˆr“ıo4  o@ƒx                 ÿÿ       @&      @
+ˆr“ıo4  p@ƒ€                 ÿÿ       @&      @
+ˆr“ıo4  q@ƒˆ                 ÿÿ       @&      @
+ˆr“ıo4  r@ƒ                 ÿÿ       @&      @
+ˆr“ıo4  s@ƒ˜                 ÿÿ       @&      @
+ˆr“ıo4  t@ƒ                  ÿÿ       @&      @
+ˆr“ıo4  u@ƒ¨                 ÿÿ       @&      @
+ˆr“ıo4  v@ƒ°                 ÿÿ       @&      @
+ˆr“ıo4  w@ƒ¸                 ÿÿ       @&      @
+ˆr“ıo4  x@ƒÀ                 ÿÿ       @&      @
+ˆr“ıo4  y@ƒÈ                 ÿÿ       @&      @
+ˆr“ıo4  z@ƒĞ                 ÿÿ       @&      @
+ˆr“ıo4  {@ƒØ                 ÿÿ       @&      @
+ˆr“ıo4  |@ƒà                 ÿÿ       @&      @
+ˆr“ıo4  }@ƒè                 ÿÿ       @&      @
+ˆr“ıo4  ~@ƒğ                 ÿÿ       @&      @
+ˆr“ıo4  @ƒø                 ÿÿ       @&      @
+ˆr“ıo4  €@„                  ÿÿ       @&      @
+ˆr“ıo4  @„                 ÿÿ       @&      @
+ˆr“ıo4  ‚@„                 ÿÿ       @&      @
+ˆr“ıo4  ƒ@„                 ÿÿ       @&      @
+ˆr“ıo4  „@„                  ÿÿ       @&      @
+ˆr“ıo4  …@„(                 ÿÿ       @&      @
+ˆr“ıo4  †@„0                 ÿÿ       @&      @
+ˆr“ıo4  ‡@„8                 ÿÿ       @&      @
+ˆr“ıo4  ˆ@„@                 ÿÿ       @&      @
+ˆr“ıo4  ‰@„H                 ÿÿ       @&      @
+ˆr“ıo4  Š@„P                 ÿÿ       @&      @
+ˆr“ıo4  ‹@„X                 ÿÿ       @&      @
+ˆr“ıo4  Œ@„`                 ÿÿ       @&      @
+ˆr“ıo4  @„h                 ÿÿ       @&      @
+ˆr“ıo4  @„p                 ÿÿ       @&      @
+ˆr“ıo4  @„x                 ÿÿ       @&      @
+ˆr“ıo4  @„€                 ÿÿ       @&      @
+ˆr“ıo4  ‘@„ˆ                 ÿÿ       @&      @
+ˆr“ıo4  ’@„                 ÿÿ       @&      @
+ˆr“ıo4  “@„˜                 ÿÿ       @&      @
+ˆr“ıo4  ”@„                  ÿÿ       @&      @
+ˆr“ıo4  •@„¨                 ÿÿ       @&      @
+ˆr“ıo4  –@„°                 ÿÿ       @&      @
+ˆr“ıo4  —@„¸                 ÿÿ       @&      @
+ˆr“ıo4  ˜@„À                 ÿÿ       @&      @
+ˆr“ıo4  ™@„È                 ÿÿ       @&      @
+ˆr“ıo4  š@„Ğ                 ÿÿ       @&      @
+ˆr“ıo4  ›@„Ø                 ÿÿ       @&      @
+ˆr“ıo4  œ@„à                 ÿÿ       @&      @
+ˆr“ıo4  @„è                 ÿÿ       @&      @
+ˆr“ıo4  @„ğ                 ÿÿ       @&      @
+ˆr“ıo4  Ÿ@„ø                 ÿÿ       @&      @
+ˆr“ıo4   @…                  ÿÿ       @&      @
+ˆr“ıo4  ¡@…                 ÿÿ       @&      @
+ˆr“ıo4  ¢@…                 ÿÿ       @&      @
+ˆr“ıo4  £@…                 ÿÿ       @&      @
+ˆr“ıo4  ¤@…                  ÿÿ       @&      @
+ˆr“ıo4  ¥@…(                 ÿÿ       @&      @
+ˆr“ıo4  ¦@…0                 ÿÿ       @&      @
+ˆr“ıo4  §@…8                 ÿÿ       @&      @
+ˆr“ıo4  ¨@…@                 ÿÿ       @&      @
+ˆr“ıo4  ©@…H                 ÿÿ       @&      @
+ˆr“ıo4  ª@…P                 ÿÿ       @&      @
+ˆr“ıo4  «@…X                 ÿÿ       @&      @
+ˆr“ıo4  ¬@…`                 ÿÿ       @&      @
+ˆr“ıo4  ­@…h                 ÿÿ       @&      @
+ˆr“ıo4  ®@…p                 ÿÿ       @&      @
+ˆr“ıo4  ¯@…x                 ÿÿ       @&      @
+ˆr“ıo4  °@…€                 ÿÿ       @&      @
+ˆr“ıo4  ±@…ˆ                 ÿÿ       @&      @
+ˆr“ıo4  ²@…                 ÿÿ       @&      @
+ˆr“ıo4  ³@…˜                 ÿÿ       @&      @
+ˆr“ıo4  ´@…                  ÿÿ       @&      @
+ˆr“ıo4  µ@…¨                 ÿÿ       @&      @
+ˆr“ıo4  ¶@…°                 ÿÿ       @&      @
+ˆr“ıo4  ·@…¸                 ÿÿ       @&      @
+ˆr“ıo4  ¸@…À                 ÿÿ       @&      @
+ˆr“ıo4  ¹@…È                 ÿÿ       @&      @
+ˆr“ıo4  º@…Ğ                 ÿÿ       @&      @
+ˆr“ıo4  »@…Ø                 ÿÿ       @&      @
+ˆr“ıo4  ¼@…à                 ÿÿ       @&      @
+ˆr“ıo4  ½@…è                 ÿÿ       @&      @
+ˆr“ıo4  ¾@…ğ                 ÿÿ       @&      @
+ˆr“ıo4  ¿@…ø                 ÿÿ       @&      @
+ˆr“ıo4  À@†                  ÿÿ       @&      @
+ˆr“ıo4  Á@†                 ÿÿ       @&      @
+ˆr“ıo4  Â@†                 ÿÿ       @&      @
+ˆr“ıo4  Ã@†                 ÿÿ       @&      @
+ˆr“ıo4  Ä@†                  ÿÿ       @&      @
+ˆr“ıo4  Å@†(                 ÿÿ       @&      @
+ˆr“ıo4  Æ@†0                 ÿÿ       @&      @
+ˆr“ıo4  Ç@†8                 ÿÿ       @&      @
+ˆr“ıo4  È@†@                 ÿÿ       @&      @
+ˆr“ıo4  É@†H                 ÿÿ       @&      @
+ˆr“ıo4  Ê@†P                 ÿÿ       @&      @
+ˆr“ıo4  Ë@†X                 ÿÿ       @&      @
+ˆr“ıo4  Ì@†`                 ÿÿ       @&      @
+ˆr“ıo4  Í@†h                 ÿÿ       @&      @
+ˆr“ıo4  Î@†p                 ÿÿ       @&      @
+ˆr“ıo4  Ï@†x                 ÿÿ       @&      @
+ˆr“ıo4  Ğ@†€                 ÿÿ       @&      @
+ˆr“ıo4  Ñ@†ˆ                 ÿÿ       @&      @
+ˆr“ıo4  Ò@†                 ÿÿ       @&      @
+ˆr“ıo4  Ó@†˜                 ÿÿ       @&      @
+ˆr“ıo4  Ô@†                  ÿÿ       @&      @
+ˆr“ıo4  Õ@†¨                 ÿÿ       @&      @
+ˆr“ıo4  Ö@†°                 ÿÿ       @&      @
+ˆr“ıo4  ×@†¸                 ÿÿ       @&      @
+ˆr“ıo4  Ø@†À                 ÿÿ       @&      @
+ˆr“ıo4  Ù@†È                 ÿÿ       @&      @
+ˆr“ıo4  Ú@†Ğ                 ÿÿ       @&      @
+ˆr“ıo4  Û@†Ø                 ÿÿ       @&      @
+ˆr“ıo4  Ü@†à                 ÿÿ       @&      @
+ˆr“ıo4  İ@†è                 ÿÿ       @&      @
+ˆr“ıo4  Ş@†ğ                 ÿÿ       @&      @
+ˆr“ıo4  ß@†ø                 ÿÿ       @&      @
+ˆr“ıo4  à@‡                  ÿÿ       @&      @
+ˆr“ıo4  á@‡                 ÿÿ       @&      @
+ˆr“ıo4  â@‡                 ÿÿ       @&      @
+ˆr“ıo4  ã@‡                 ÿÿ       @&      @
+ˆr“ıo4  ä@‡                  ÿÿ       @&      @
+ˆr“ıo4  å@‡(                 ÿÿ       @&      @
+ˆr“ıo4  æ@‡0                 ÿÿ       @&      @
+ˆr“ıo4  ç@‡8                 ÿÿ       @&      @
+ˆr“ıo4  è@‡@                 ÿÿ       @&      @
+ˆr“ıo4  é@‡H                 ÿÿ       @&      @
+ˆr“ıo4  ê@‡P                 ÿÿ       @&      @
+ˆr“ıo4  ë@‡X                 ÿÿ       @&      @
+ˆr“ıo4  ì@‡`                 ÿÿ       @&      @
+ˆr“ıo4  í@‡h                 ÿÿ       @&      @
+ˆr“ıo4  î@‡p                 ÿÿ       @&      @
+ˆr“ıo4  ï@‡x                 ÿÿ       @&      @
+ˆr“ıo4  ğ@‡€                 ÿÿ       @&      @
+ˆr“ıo4  ñ@‡ˆ                 ÿÿ       @&      @
+ˆr“ıo4  ò@‡                 ÿÿ       @&      @
+ˆr“ıo4  ó@‡˜                 ÿÿ       @&      @
+ˆr“ıo4  ô@‡                  ÿÿ       @&      @
+ˆr“ıo4  õ@‡¨                 ÿÿ       @&      @
+ˆr“ıo4  ö@‡°                 ÿÿ       @&      @
+ˆr“ıo4  ÷@‡¸                 ÿÿ       @&      @
+ˆr“ıo4  ø@‡À                 ÿÿ       @&      @
+ˆr“ıo4  ù@‡È                 ÿÿ       @&      @
+ˆr“ıo4  ú@‡Ğ                 ÿÿ       @&      @
+ˆr“ıo4  û@‡Ø                 ÿÿ       @&      @
+ˆr“ıo4  ü@‡à                 ÿÿ       @&      @
+ˆr“ıo4  ı@‡è                 ÿÿ       @&      @
+ˆr“ıo4  ş@‡ğ                 ÿÿ       @&      @
+ˆr“ıo4  ÿ@‡ø                 ÿÿ       @&      @
+ˆr“ıo4   @ˆ                  ÿÿ       @&      @
+ˆr“ıo4  @ˆ                 ÿÿ       @&      @
+ˆr“ıo4  @ˆ                 ÿÿ       @&      @
+ˆr“ıo4  @ˆ                 ÿÿ       @&      @
+ˆr“ıo4  @ˆ                  ÿÿ       @&      @
+ˆr“ıo4  @ˆ(                 ÿÿ       @&      @
+ˆr“ıo4  @ˆ0                 ÿÿ       @&      @
+ˆr“ıo4  @ˆ8                 ÿÿ       @&      @
+ˆr“ıo4  @ˆ@                 ÿÿ       @&      @
+ˆr“ıo4  	@ˆH                 ÿÿ       @&      @
+ˆr“ıo4  
+@ˆP                 ÿÿ       @&      @
+ˆr“ıo4  @ˆX                 ÿÿ       @&      @
+ˆr“ıo4  @ˆ`                 ÿÿ       @&      @
+ˆr“ıo4  @ˆh                 ÿÿ       @&      @
+ˆr“ıo4  @ˆp                 ÿÿ       @&      @
+ˆr“ıo4  @ˆx                 ÿÿ       @&      @
+ˆr“ıo4  @ˆ€                 ÿÿ       @&      @
+ˆr“ıo4  @ˆˆ                 ÿÿ       @&      @
+ˆr“ıo4  @ˆ                 ÿÿ       @&      @
+ˆr“ıo4  @ˆ˜                 ÿÿ       @&      @
+ˆr“ıo4  @ˆ                  ÿÿ       @&      @
+ˆr“ıo4  @ˆ¨                 ÿÿ       @&      @
+ˆr“ıo4  @ˆ°                 ÿÿ       @&      @
+ˆr“ıo4  @ˆ¸                 ÿÿ       @&      @
+ˆr“ıo4  @ˆÀ                 ÿÿ       @&      @
+ˆr“ıo4  @ˆÈ                 ÿÿ       @&      @
+ˆr“ıo4  @ˆĞ                 ÿÿ       @&      @
+ˆr“ıo4  @ˆØ                 ÿÿ       @&      @
+ˆr“ıo4  @ˆà                 ÿÿ       @&      @
+ˆr“ıo4  @ˆè                 ÿÿ       @&      @
+ˆr“ıo4  @ˆğ                 ÿÿ       @&      @
+ˆr“ıo4  @ˆø                 ÿÿ       @&      @
+ˆr“ıo4   @‰                  ÿÿ       @&      @
+ˆr“ıo4  !@‰                 ÿÿ       @&      @
+ˆr“ıo4  "@‰                 ÿÿ       @&      @
+ˆr“ıo4  #@‰                 ÿÿ       @&      @
+ˆr“ıo4  $@‰                  ÿÿ       @&      @
+ˆr“ıo4  %@‰(                 ÿÿ       @&      @
+ˆr“ıo4  &@‰0                 ÿÿ       @&      @
+ˆr“ıo4  '@‰8                 ÿÿ       @&      @
+ˆr“ıo4  (@‰@                 ÿÿ       @&      @
+ˆr“ıo4  )@‰H                 ÿÿ       @&      @
+ˆr“ıo4  *@‰P                 ÿÿ       @&      @
+ˆr“ıo4  +@‰X                 ÿÿ       @&      @
+ˆr“ıo4  ,@‰`                 ÿÿ       @&      @
+ˆr“ıo4  -@‰h                 ÿÿ       @&      @
+ˆr“ıo4  .@‰p                 ÿÿ       @&      @
+ˆr“ıo4  /@‰x                 ÿÿ       @&      @
+ˆr“ıo4  0@‰€                 ÿÿ       @&      @
+ˆr“ıo4  1@‰ˆ                 ÿÿ       @&      @
+ˆr“ıo4  2@‰                 ÿÿ       @&      @
+ˆr“ıo4  3@‰˜                 ÿÿ       @&      @
+ˆr“ıo4  4@‰                  ÿÿ       @&      @
+ˆr“ıo4  5@‰¨                 ÿÿ       @&      @
+ˆr“ıo4  6@‰°                 ÿÿ       @&      @
+ˆr“ıo4  7@‰¸                 ÿÿ       @&      @
+ˆr“ıo4  8@‰À                 ÿÿ       @&      @
+ˆr“ıo4  9@‰È                 ÿÿ       @&      @
+ˆr“ıo4  :@‰Ğ                 ÿÿ       @&      @
+ˆr“ıo4  ;@‰Ø                 ÿÿ       @&      @
+ˆr“ıo4  <@‰à                 ÿÿ       @&      @
+ˆr“ıo4  =@‰è                 ÿÿ       @&      @
+ˆr“ıo4  >@‰ğ                 ÿÿ       @&      @
+ˆr“ıo4  ?@‰ø                 ÿÿ       @&      @
+ˆr“ıo4  @@Š                  ÿÿ       @&      @
+ˆr“ıo4  A@Š                 ÿÿ       @&      @
+ˆr“ıo4  B@Š                 ÿÿ       @&      @
+ˆr“ıo4  C@Š                 ÿÿ       @&      @
+ˆr“ıo4  D@Š                  ÿÿ       @&      @
+ˆr“ıo4  E@Š(                 ÿÿ       @&      @
+ˆr“ıo4  F@Š0                 ÿÿ       @&      @
+ˆr“ıo4  G@Š8                 ÿÿ       @&      @
+ˆr“ıo4  H@Š@                 ÿÿ       @&      @
+ˆr“ıo4  I@ŠH                 ÿÿ       @&      @
+ˆr“ıo4  J@ŠP                 ÿÿ       @&      @
+ˆr“ıo4  K@ŠX                 ÿÿ       @&      @
+ˆr“ıo4  L@Š`                 ÿÿ       @&      @
+ˆr“ıo4  M@Šh                 ÿÿ       @&      @
+ˆr“ıo4  N@Šp                 ÿÿ       @&      @
+ˆr“ıo4  O@Šx                 ÿÿ       @&      @
+ˆr“ıo4  P@Š€                 ÿÿ       @&      @
+ˆr“ıo4  Q@Šˆ                 ÿÿ       @&      @
+ˆr“ıo4  R@Š                 ÿÿ       @&      @
+ˆr“ıo4  S@Š˜                 ÿÿ       @&      @
+ˆr“ıo4  T@Š                  ÿÿ       @&      @
+ˆr“ıo4  U@Š¨                 ÿÿ       @&      @
+ˆr“ıo4  V@Š°                 ÿÿ       @&      @
+ˆr“ıo4  W@Š¸                 ÿÿ       @&      @
+ˆr“ıo4  X@ŠÀ                 ÿÿ       @&      @
+ˆr“ıo4  Y@ŠÈ                 ÿÿ       @&      @
+ˆr“ıo4  Z@ŠĞ                 ÿÿ       @&      @
+ˆr“ıo4  [@ŠØ                 ÿÿ       @&      @
+ˆr“ıo4  \@Šà                 ÿÿ       @&      @
+ˆr“ıo4  ]@Šè                 ÿÿ       @&      @
+ˆr“ıo4  ^@Šğ                 ÿÿ       @&      @
+ˆr“ıo4  _@Šø                 ÿÿ       @&      @
+ˆr“ıo4  `@‹                  ÿÿ       @&      @
+ˆr“ıo4  a@‹                 ÿÿ       @&      @
+ˆr“ıo4  b@‹                 ÿÿ       @&      @
+ˆr“ıo4  c@‹                 ÿÿ       @&      @
+ˆr“ıo4  d@‹                  ÿÿ       @&      @
+ˆr“ıo4  e@‹(                 ÿÿ       @&      @
+ˆr“ıo4  f@‹0                 ÿÿ       @&      @
+ˆr“ıo4  g@‹8                 ÿÿ       @&      @
+ˆr“ıo4  h@‹@                 ÿÿ       @&      @
+ˆr“ıo4  i@‹H                 ÿÿ       @&      @
+ˆr“ıo4  j@‹P                 ÿÿ       @&      @
+ˆr“ıo4  k@‹X                 ÿÿ       @&      @
+ˆr“ıo4  l@‹`                 ÿÿ       @&      @
+ˆr“ıo4  m@‹h                 ÿÿ       @&      @
+ˆr“ıo4  n@‹p                 ÿÿ       @&      @
+ˆr“ıo4  o@‹x                 ÿÿ       @&      @
+ˆr“ıo4  p@‹€                 ÿÿ       @&      @
+ˆr“ıo4  q@‹ˆ                 ÿÿ       @&      @
+ˆr“ıo4  r@‹                 ÿÿ       @&      @
+ˆr“ıo4  s@‹˜                 ÿÿ       @&      @
+ˆr“ıo4  t@‹                  ÿÿ       @&      @
+ˆr“ıo4  u@‹¨                 ÿÿ       @&      @
+ˆr“ıo4  v@‹°                 ÿÿ       @&      @
+ˆr“ıo4  w@‹¸                 ÿÿ       @&      @
+ˆr“ıo4  x@‹À                 ÿÿ       @&      @
+ˆr“ıo4  y@‹È                 ÿÿ       @&      @
+ˆr“ıo4  z@‹Ğ                 ÿÿ       @&      @
+ˆr“ıo4  {@‹Ø                 ÿÿ       @&      @
+ˆr“ıo4  |@‹à                 ÿÿ       @&      @
+ˆr“ıo4  }@‹è                 ÿÿ       @&      @
+ˆr“ıo4  ~@‹ğ                 ÿÿ       @&      @
+ˆr“ıo4  @‹ø                 ÿÿ       @&      @
+ˆr“ıo4  €@Œ                  ÿÿ       @&      @
+ˆr“ıo4  @Œ                 ÿÿ       @&      @
+ˆr“ıo4  ‚@Œ                 ÿÿ       @&      @
+ˆr“ıo4  ƒ@Œ                 ÿÿ       @&      @
+ˆr“ıo4  „@Œ                  ÿÿ       @&      @
+ˆr“ıo4  …@Œ(                 ÿÿ       @&      @
+ˆr“ıo4  †@Œ0                 ÿÿ       @&      @
+ˆr“ıo4  ‡@Œ8                 ÿÿ       @&      @
+ˆr“ıo4  ˆ@Œ@                 ÿÿ       @&      @
+ˆr“ıo4  ‰@ŒH                 ÿÿ       @&      @
+ˆr“ıo4  Š@ŒP                 ÿÿ       @&      @
+ˆr“ıo4  ‹@ŒX                 ÿÿ       @&      @
+ˆr“ıo4  Œ@Œ`                 ÿÿ       @&      @
+ˆr“ıo4  @Œh                 ÿÿ       @&      @
+ˆr“ıo4  @Œp                 ÿÿ       @&      @
+ˆr“ıo4  @Œx                 ÿÿ       @&      @
+ˆr“ıo4  @Œ€                 ÿÿ       @&      @
+ˆr“ıo4  ‘@Œˆ                 ÿÿ       @&      @
+ˆr“ıo4  ’@Œ                 ÿÿ       @&      @
+ˆr“ıo4  “@Œ˜                 ÿÿ       @&      @
+ˆr“ıo4  ”@Œ                  ÿÿ       @&      @
+ˆr“ıo4  •@Œ¨                 ÿÿ       @&      @
+ˆr“ıo4  –@Œ°                 ÿÿ       @&      @
+ˆr“ıo4  —@Œ¸                 ÿÿ       @&      @
+ˆr“ıo4  ˜@ŒÀ                 ÿÿ       @&      @
+ˆr“ıo4  ™@ŒÈ                 ÿÿ       @&      @
+ˆr“ıo4  š@ŒĞ                 ÿÿ       @&      @
+ˆr“ıo4  ›@ŒØ                 ÿÿ       @&      @
+ˆr“ıo4  œ@Œà                 ÿÿ       @&      @
+ˆr“ıo4  @Œè                 ÿÿ       @&      @
+ˆr“ıo4  @Œğ                 ÿÿ       @&      @
+ˆr“ıo4  Ÿ@Œø                 ÿÿ       @&      @
+ˆr“ıo4   @                  ÿÿ       @&      @
+ˆr“ıo4  ¡@                 ÿÿ       @&      @
+ˆr“ıo4  ¢@                 ÿÿ       @&      @
+ˆr“ıo4  £@                 ÿÿ       @&      @
+ˆr“ıo4  ¤@                  ÿÿ       @&      @
+ˆr“ıo4  ¥@(                 ÿÿ       @&      @
+ˆr“ıo4  ¦@0                 ÿÿ       @&      @
+ˆr“ıo4  §@8                 ÿÿ       @&      @
+ˆr“ıo4  ¨@@                 ÿÿ       @&      @
+ˆr“ıo4  ©@H                 ÿÿ       @&      @
+ˆr“ıo4  ª@P                 ÿÿ       @&      @
+ˆr“ıo4  «@X                 ÿÿ       @&      @
+ˆr“ıo4  ¬@`                 ÿÿ       @&      @
+ˆr“ıo4  ­@h                 ÿÿ       @&      @
+ˆr“ıo4  ®@p                 ÿÿ       @&      @
+ˆr“ıo4  ¯@x                 ÿÿ       @&      @
+ˆr“ıo4  °@€                 ÿÿ       @&      @
+ˆr“ıo4  ±@ˆ                 ÿÿ       @&      @
+ˆr“ıo4  ²@                 ÿÿ       @&      @
+ˆr“ıo4  ³@˜                 ÿÿ       @&      @
+ˆr“ıo4  ´@                  ÿÿ       @&      @
+ˆr“ıo4  µ@¨                 ÿÿ       @&      @
+ˆr“ıo4  ¶@°                 ÿÿ       @&      @
+ˆr“ıo4  ·@¸                 ÿÿ       @&      @
+ˆr“ıo4  ¸@À                 ÿÿ       @&      @
+ˆr“ıo4  ¹@È                 ÿÿ       @&      @
+ˆr“ıo4  º@Ğ                 ÿÿ       @&      @
+ˆr“ıo4  »@Ø                 ÿÿ       @&      @
+ˆr“ıo4  ¼@à                 ÿÿ       @&      @
+ˆr“ıo4  ½@è                 ÿÿ       @&      @
+ˆr“ıo4  ¾@ğ                 ÿÿ       @&      @
+ˆr“ıo4  ¿@ø                 ÿÿ       @&      @
+ˆr“ıo4  À@                  ÿÿ       @&      @
+ˆr“ıo4  Á@                 ÿÿ       @&      @
+ˆr“ıo4  Â@                 ÿÿ       @&      @
+ˆr“ıo4  Ã@                 ÿÿ       @&      @
+ˆr“ıo4  Ä@                  ÿÿ       @&      @
+ˆr“ıo4  Å@(                 ÿÿ       @&      @
+ˆr“ıo4  Æ@0                 ÿÿ       @&      @
+ˆr“ıo4  Ç@8                 ÿÿ       @&      @
+ˆr“ıo4  È@@                 ÿÿ       @&      @
+ˆr“ıo4  É@H                 ÿÿ       @&      @
+ˆr“ıo4  Ê@P                 ÿÿ       @&      @
+ˆr“ıo4  Ë@X                 ÿÿ       @&      @
+ˆr“ıo4  Ì@`                 ÿÿ       @&      @
+ˆr“ıo4  Í@h                 ÿÿ       @&      @
+ˆr“ıo4  Î@p                 ÿÿ       @&      @
+ˆr“ıo4  Ï@x                 ÿÿ       @&      @
+ˆr“ıo4  Ğ@€                 ÿÿ       @&      @
+ˆr“ıo4  Ñ@ˆ                 ÿÿ       @&      @
+ˆr“ıo4  Ò@                 ÿÿ       @&      @
+ˆr“ıo4  Ó@˜                 ÿÿ       @&      @
+ˆr“ıo4  Ô@                  ÿÿ       @&      @
+ˆr“ıo4  Õ@¨                 ÿÿ       @&      @
+ˆr“ıo4  Ö@°                 ÿÿ       @&      @
+ˆr“ıo4  ×@¸                 ÿÿ       @&      @
+ˆr“ıo4  Ø@À                 ÿÿ       @&      @
+ˆr“ıo4  Ù@È                 ÿÿ       @&      @
+ˆr“ıo4  Ú@Ğ                 ÿÿ       @&      @
+ˆr“ıo4  Û@Ø                 ÿÿ       @&      @
+ˆr“ıo4  Ü@à                 ÿÿ       @&      @
+ˆr“ıo4  İ@è                 ÿÿ       @&      @
+ˆr“ıo4  Ş@ğ                 ÿÿ       @&      @
+ˆr“ıo4  ß@ø                 ÿÿ       @&      @
+ˆr“ıo4  à@                  ÿÿ       @&      @
+ˆr“ıo4  á@                 ÿÿ       @&      @
+ˆr“ıo4  â@                 ÿÿ       @&      @
+ˆr“ıo4  ã@                 ÿÿ       @&      @
+ˆr“ıo4  ä@                  ÿÿ       @&      @
+ˆr“ıo4  å@(                 ÿÿ       @&      @
+ˆr“ıo4  æ@0                 ÿÿ       @&      @
+ˆr“ıo4  ç@8                 ÿÿ       @&      @
+ˆr“ıo4  è@@                 ÿÿ       @&      @
+ˆr“ıo4  é@H                 ÿÿ       @&      @
+ˆr“ıo4  ê@P                 ÿÿ       @&      @
+ˆr“ıo4  ë@X                 ÿÿ       @&      @
+ˆr“ıo4  ì@`                 ÿÿ       @&      @
+ˆr“ıo4  í@h                 ÿÿ       @&      @
+ˆr“ıo4  î@p                 ÿÿ       @&      @
+ˆr“ıo4  ï@x                 ÿÿ       @&      @
+ˆr“ıo4  ğ@€                 ÿÿ       @&      @
+ˆr“ıo4  ñ@ˆ                 ÿÿ       @&      @
+ˆr“ıo4  ò@                 ÿÿ       @&      @
+ˆr“ıo4  ó@˜                 ÿÿ       @&      @
+ˆr“ıo4  ô@                  ÿÿ       @&      @
+ˆr“ıo4  õ@¨                 ÿÿ       @&      @
+ˆr“ıo4  ö@°                 ÿÿ       @&      @
+ˆr“ıo4  ÷@¸                 ÿÿ       @&      @
+ˆr“ıo4  ø@À                 ÿÿ       @&      @
+ˆr“ıo4  ù@È                 ÿÿ       @&      @
+ˆr“ıo4  ú@Ğ                 ÿÿ       @&      @
+ˆr“ıo4  û@Ø                 ÿÿ       @&      @
+ˆr“ıo4  ü@à                 ÿÿ       @&      @
+ˆr“ıo4  ı@è                 ÿÿ       @&      @
+ˆr“ıo4  ş@ğ                 ÿÿ       @&      @
+ˆr“ıo4  ÿ@ø                 ÿÿ       @&      @
+ˆr“ıo4   @                  ÿÿ       @&      @
+ˆr“ıo4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                   16 / width of table in bytes                        NAXIS2  =                    1 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    2 / number of fields in each row                   EXTNAME = 'GTI     '           / name of this binary table extension            EXTVER  =                    7                                                  HDUNAME = 'GTI7    '           / ASCDM block name                               TTYPE1  = 'START   '           / label for field                                TFORM1  = '1D      '           / format of field                                TTYPE2  = 'STOP    '           / label for field                                TFORM2  = '1D      '           / format of field                                MISSION = 'AXAF    '           / Mission                                        TELESCOP= 'CHANDRA '           / Telescope                                      INSTRUME= 'ACIS    '           / Instrument                                     MJDREF  =  5.0814000000000E+04 / [d] MJD zero point for times                   TSTART  =  8.1321733117777E+08 / [s] Observation start time (MET)               TSTOP   =  8.1323238586624E+08 / [s] Observation end time (MET)                 TIMESYS = 'TT      '           / Time system                                    TIMEUNIT= 's       '           / Time unit                                      CHECKSUM= '9XUaEVTT9VTYEVTY'   / HDU checksum updated 2025-11-05T19:56:41       DATASUM = '1736778098'         / data unit checksum updated 2025-11-05T19:56:41 CCD_ID  =                    7 / CCD for this table                             END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             AÈ<]¨çsAÈ<v;VÁ+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                   16 / width of table in bytes                        NAXIS2  =                    1 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    2 / number of fields in each row                   EXTNAME = 'GTI     '           / name of this binary table extension            EXTVER  =                    6                                                  HDUNAME = 'GTI6    '           / ASCDM block name                               TTYPE1  = 'START   '           / label for field                                TFORM1  = '1D      '           / format of field                                TTYPE2  = 'STOP    '           / label for field                                TFORM2  = '1D      '           / format of field                                MISSION = 'AXAF    '           / Mission                                        TELESCOP= 'CHANDRA '           / Telescope                                      INSTRUME= 'ACIS    '           / Instrument                                     MJDREF  =  5.0814000000000E+04 / [d] MJD zero point for times                   TSTART  =  8.1321733117777E+08 / [s] Observation start time (MET)               TSTOP   =  8.1323238586624E+08 / [s] Observation end time (MET)                 TIMESYS = 'TT      '           / Time system                                    TIMEUNIT= 's       '           / Time unit                                      CHECKSUM= 'NYUKOXUHNXUHNXUH'   / HDU checksum updated 2025-11-05T19:56:41       DATASUM = '1737122366'         / data unit checksum updated 2025-11-05T19:56:41 CCD_ID  =                    6 / CCD for this table                             END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             AÈ<]¨£(?AÈ<v;VÁ+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
